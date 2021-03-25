@@ -59,6 +59,10 @@ object {
 .italic {
   font-style: italic; }
 
+.align-left {
+  text-align: left !important;
+  padding-left: 0; }
+
 h1 {
   font-family: gotham;
   font-weight: 900;
@@ -138,47 +142,9 @@ p {
 .orange-underline {
   border-bottom: 6px solid #F26524; }
 
-.green-giant {
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid #C2D500; }
-
-.turquoise-giant {
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid #00AC98; }
-
-.orange-giant {
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid #F26524; }
-
-.link-green {
-  padding: 10px;
-  background-color: #C2D500;
-  color: white;
-  text-decoration: none;
+.links-container {
   float: left;
-  text-align: center;
-  margin-top: 0vh; }
-
-.link-turquoise {
-  padding: 10px;
-  background-color: #00AC98;
-  color: white;
-  text-decoration: none;
-  float: left;
-  text-align: center;
-  margin-top: 2vh; }
-
-.link-orange {
-  padding: 10px;
-  background-color: #F26524;
-  color: white;
-  text-decoration: none;
-  float: left;
-  text-align: center;
-  margin-top: 2vh; }
+  margin-top: 50px; }
 
 .link-outline {
   border-top: 1px solid lightgray;
@@ -225,6 +191,13 @@ p {
     float: left;
     transition: .5s; }
 
+.fancy-text {
+  font-family: macklin;
+  letter-spacing: 0; }
+
+.arrow {
+  margin-top: 12.5px; }
+
 #featured-projects .portfolio-list {
   transition: .25s;
   height: 21vh !important; }
@@ -264,10 +237,6 @@ p {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory; }
-
-section {
-  height: 100vh;
-  scroll-snap-align: center; }
 
 #page-404 {
   padding-top: 25vh !important; }
@@ -1898,7 +1867,6 @@ article {
     line-height: 40px; }
 
   footer {
-    position: fixed;
     bottom: 0;
     height: 40px;
     background-color: white;

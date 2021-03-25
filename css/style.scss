@@ -86,6 +86,11 @@ object{
   font-style: italic;
 }
 
+.align-left{
+  text-align: left!important;
+  padding-left: 0;
+}
+
 h1{
 font-family: gotham;
 font-weight: 900;
@@ -198,53 +203,9 @@ font-size: 16px;
   border-bottom: 6px solid $orange;
 }
 
-.green-giant{
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid $green;
-}
-
-.turquoise-giant{
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid $turquoise;
-}
-
-.orange-giant{
-  font-size: 55px;
-  line-height: 50px;
-  border-bottom: 12px solid $orange;
-}
-
-
-.link-green{
-  padding: 10px;
-  background-color: $green;
-  color: white;
-  text-decoration: none;
+.links-container{
   float: left;
-  text-align: center;
-  margin-top: 0vh;
-}
-
-.link-turquoise{
-  padding: 10px;
-  background-color: $turquoise;
-  color: white;
-  text-decoration: none;
-  float: left;
-  text-align: center;
-  margin-top: 2vh;
-}
-
-.link-orange{
-  padding: 10px;
-  background-color: $orange;
-  color: white;
-  text-decoration: none;
-  float: left;
-  text-align: center;
-  margin-top: 2vh;
+  margin-top: 50px;
 }
 
 .link-outline{
@@ -303,6 +264,14 @@ font-size: 16px;
   }
 }
 
+.fancy-text{
+  font-family: macklin;
+  letter-spacing: 0;
+}
+
+.arrow{
+  margin-top: 12.5px;
+}
 
 
 
@@ -361,10 +330,7 @@ font-size: 16px;
   scroll-snap-type: y mandatory;
 }
 
-section {
-  height: 100vh;
-  scroll-snap-align: center;
-}
+
 
 #page-404{
   padding-top: 25vh!important;
@@ -2876,7 +2842,6 @@ padding-top: 30vh;
 }
 
   footer{
-    position: fixed;
     bottom: 0;
     height: 40px;
     background-color: white;
