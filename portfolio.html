@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/fonts/stylesheet.css" type="text/css" rel="stylesheet">
+    <title>Burns Scalo Real Estate</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+
+    <header class="col-12 float-left">
+
+        <div class="logo-container col-1 col-xl-2 offset-lg-0 offset-lg-0 float-left">
+      <a href="index.html" class="col-12 float-left p-0 d-xl-none"><img src="assets/mark.svg" alt="Burns Scalo logo to home page" class="col-12 float-left"></a>
+      <a href="index.html" class="d-none d-xl-block d-md-2 col-12 float-left p-0"><img src="assets/logo.svg" alt="Burns Scalo logo to home page" class="col-12 float-left"></a>
+  </div>
+      <h5 class="col-8 col-lg-4">A Luxury Real Estate Firm</h5>
+
+      <div class="menu-container col-1 offset-1 offset-md-2 offset-lg-6 d-xl-none">
+      <a onclick="myFunction()" class="col-12 float-left"><img src="assets/menu.svg" alt="Dropdown Menu" class="dropdown-menu-custom"></a>
+      </div>
+
+      </header>
+
+
+
+      <nav class="col-12 col-lg-10 col-xl-9 offset-lg-2 offset-xl-3" id="nav">
+        <ul class="main-nav col-8 col-md-5 col-lg-6 col-xl-6 offset-2 offset-md-4 offset-lg-2 offset-xl-2">
+
+          <li class="nav-item-1 d-none d-xl-block"><a href="who-we-are.html">WHO WE ARE</a>
+            <ul id="subNav1">
+            <li><a href="team.html">TEAM</a></li>
+            <li class="sub-2"><a href="press.html">PRESS</a></li>
+            <li class="sub-3"><a href="insights.html">INSIGHTS</a></li>
+            </ul>
+
+          </li>
+<li class="nav-item-1 d-xl-none"><a href="who-we-are.html">WHO WE ARE</a></li>
+<li class="nav-item-2 d-xl-none" id="subnav-1-open"><a onclick="subNav1()"><img src="assets/arrow-vertical.svg" alt="arrow to expand and collapse sub menu"></a></li>
+
+<li class="subnav-mobile-custom d-block-xl-none" id="subNavMobile1">
+  <ul>
+<li class="sub-1"><a href="team.html">TEAM</a></li>
+<li class="sub-2"><a href="press.html">PRESS</a></li>
+<li class="sub-3"><a href="insights.html">INSIGHTS</a></li>
+</ul>
+</li>
+
+
+          <li class="nav-item-2 d-none d-xl-block"><a href="what-we-do.html">WHAT WE DO</a>
+            <ul id="subnav">
+            <li><a href="brokerage.html">BROKERAGE</a></li>
+            <li class="sub-2"><a href="development.html">DEVELOPMENT</a></li>
+            <li class="sub-3"><a href="management.html">MANAGEMENT</a></li>
+            </ul>
+  </li>
+<li class="nav-item-2 d-block d-xl-none"><a href="what-we-do.html">WHAT WE DO</a></li>
+          <li class="nav-item-2 d-xl-none" id="subnav-open"><a onclick="subNav()"><img src="assets/arrow-vertical.svg" alt="arrow to expand and collapse sub menu"></a></li>
+
+          <li class="subnav-mobile-custom" id="subNavMobile">
+            <ul>
+          <li class="sub-1"><a href="brokerage.html">BROKERAGE</a></li>
+          <li class="sub-2"><a href="development.html">DEVELOPMENT</a></li>
+          <li class="sub-3"><a href="management.html">MANAGEMENT</a></li>
+        </ul>
+        </li>
+
+          <li class="nav-item-3 d-xl-none"><a href="portfolio.html">PORTFOLIO</a></li>
+            <li class="nav-item-3 d-none d-xl-block" id="active"><a href="portfolio.html">PORTFOLIO</a></li>
+          </ul>
+
+          <ul class="secondary-nav col-8 col-md-5 offset-md-4 col-lg-4 col-xl-4 offset-2 offset-lg-0">
+            <li class="nav-item-4"><a href="tour.html">SCHEDULE A TOUR</a></li>
+            <li class="nav-item-5"><a href="https://www.landport.net/r/sva/login.lpa" target="_blank">MEMBERS</a></li>
+            </ul>
+
+          </nav>
+
+
+
+
+
+            <div class="col-12 p-0" id="portfolio">
+
+              <div class="container-mixitup col-12 p-0">
+
+
+
+              <ul class="filters col-10 col-lg-8 offset-md-1 float-left float-left">
+                      <li><a href="#" class="filter" data-filter="all">ALL</a></li>
+                      <li><a href="#" class="filter" data-filter=".current">CURRENT</a></li>
+
+
+                      <li><a href="#" class="filter" data-filter=".brokerage">BROKERAGE</a></li>
+                      <li><a href="#" class="filter" data-filter=".development">DEVELOPMENT</a></li>
+                      <li><a href="#" class="filter" data-filter=".management">MANAGEMENT</a></li>
+
+                    </ul>
+
+
+
+            <ul class="containMix portfolio-container col-10 col-md-10 offset-1 float-left">
+
+              <li class="brokerage mix container-p col-12 col-md-4 col-lg-4 float-left">
+                <div class="portfolio-list col-12 float-left">
+                  <a href="portfolio-abele.html">
+                    <div class="col-12 p-0 portfolio-image-container">
+                <img src="assets/images/portfolio/abele.png" alt="#">
+                </div>
+              <h3>ABELE BUSINESS PARK</h3>
+              <p>South Fayette</p>
+              </a>
+              </div>
+            </li>
+
+
+            <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+              <div class="portfolio-list col-12 float-left">
+                <a href="portfolio-beacon.html">
+                  <div class="col-12 p-0 portfolio-image-container">
+              <img src="assets/images/portfolio/beacon.png" alt="#">
+              </div>
+            <h3>BEACON I</h3>
+            <p>South Fayette</p>
+            </a>
+            </div>
+          </li>
+
+
+
+
+          <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+            <div class="portfolio-list col-12 float-left">
+              <a href="portfolio-beacon-2.html">
+                <div class="col-12 p-0 portfolio-image-container">
+            <img src="assets/images/portfolio/beacon-2.png" alt="#">
+            </div>
+          <h3>BEACON II</h3>
+          <p>South Fayette</p>
+          </a>
+          </div>
+        </li>
+
+
+
+
+        <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+        <div class="portfolio-list col-12 float-left">
+          <a href="portfolio-bentley.html">
+            <div class="col-12 p-0 portfolio-image-container">
+        <img src="assets/images/portfolio/bentley.png" alt="#">
+        </div>
+        <h3>THE BENTLEY</h3>
+        <p>Greentree</p>
+        </a>
+        </div>
+      </li>
+
+        <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+        <div class="portfolio-list col-12 float-left">
+          <a href="portfolio-boardwalk.html">
+            <div class="col-12 p-0 portfolio-image-container">
+        <img src="assets/images/portfolio/boardwalk.png" alt="#">
+        </div>
+        <h3>BOARDWALK</h3>
+        <p>North Fayette</p>
+        </a>
+        </div>
+      </li>
+
+
+
+
+        <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+          <div class="portfolio-list col-12 float-left">
+            <a href="portfolio-bursca.html">
+              <div class="col-12 p-0 portfolio-image-container">
+          <img src="assets/images/portfolio/bursca.png" alt="#">
+          </div>
+        <h3>BURSCA BUSINESS PARK</h3>
+        <p>South Fayette</p>
+        </a>
+        </div>
+      </li>
+
+
+
+      <li class="brokerage development management current mix container-p col-12 col-md-4 col-lg-4 float-left">
+      <div class="portfolio-list col-12 float-left">
+        <a href="portfolio-diamond-ridge.html">
+          <div class="col-12 p-0 portfolio-image-container">
+      <img src="assets/images/portfolio/diamond.png" alt="#">
+      </div>
+      <h3>DIAMOND RIDGE</h3>
+      <p>Moon Township</p>
+      </a>
+      </div>
+    </li>
+
+
+
+
+      <li class="brokerage mix container-p col-12 col-md-4 col-lg-4 float-left">
+        <div class="portfolio-list col-12 float-left">
+          <a href="portfolio-eqt.html">
+            <div class="col-12 p-0 portfolio-image-container">
+        <img src="assets/images/portfolio/eqt/eqt-hero-1.png" alt="#">
+        </div>
+      <h3>EQT PLAZA</h3>
+      <p>Downtown Pittsburgh</p>
+      </a>
+      </div>
+    </li>
+
+
+
+
+
+    <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+      <div class="portfolio-list col-12 float-left">
+        <a href="portfolio-smithfield.html">
+          <div class="col-12 p-0 portfolio-image-container">
+      <img src="assets/images/portfolio/first.png" alt="#">
+      </div>
+    <h3>FIRST SMITHFIELD</h3>
+    <p>Downtown Pittsburgh</p>
+    </a>
+    </div>
+  </li>
+
+
+
+  <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+    <div class="portfolio-list col-12 float-left">
+      <a href="portfolio-foster-zero.html">
+        <div class="col-12 p-0 portfolio-image-container">
+    <img src="assets/images/portfolio/foster-zero.png" alt="#">
+    </div>
+  <h3>FOSTER ZERO</h3>
+  <p>Greentree</p>
+  </a>
+  </div>
+</li>
+
+
+
+<li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+  <div class="portfolio-list col-12 float-left">
+    <a href="portfolio-greentree.html">
+      <div class="col-12 p-0 portfolio-image-container">
+  <img src="assets/images/portfolio/greentree.png" alt="#">
+  </div>
+<h3>GREENTREE PRIMARY CARE CENTER</h3>
+<p>Greentree</p>
+</a>
+</div>
+</li>
+
+
+
+<li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+  <div class="portfolio-list col-12 float-left">
+    <a href="portfolio-industry-drive.html">
+      <div class="col-12 p-0 portfolio-image-container">
+  <img src="assets/images/portfolio/industry.png" alt="#">
+  </div>
+<h3>INDUSTRY DRIVE</h3>
+<p>Findlay Township</p>
+</a>
+</div>
+</li>
+
+
+
+
+<li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+  <div class="portfolio-list col-12 float-left">
+    <a href="portfolio-stealth.html">
+      <div class="col-12 p-0 portfolio-image-container">
+  <img src="assets/images/portfolio/stealth.png" alt="#">
+  </div>
+<h3>STEALTH TECHNOLOGY CENTER</h3>
+<p>Southpointe</p>
+</a>
+</div>
+</li>
+
+
+
+
+            <li class="brokerage development management current mix container-p col-12 col-md-4 col-lg-4 float-left">
+            <div class="portfolio-list col-12 float-left">
+              <a href="portfolio-piazza.html">
+                <div class="col-12 p-0 portfolio-image-container">
+            <img src="assets/images/portfolio/piazza.png" alt="#">
+            </div>
+            <h3>THE PIAZZA</h3>
+            <p>South Fayette</p>
+            </a>
+            </div>
+          </li>
+
+            <li class="brokerage development management mix current container-p col-12 col-md-4 col-lg-4 float-left">
+            <div class="portfolio-list col-12 float-left">
+              <a href="portfolio-riviera.html">
+                <div class="col-12 p-0 portfolio-image-container">
+            <img src="assets/images/portfolio/riviera.png" alt="#">
+            </div>
+            <h3>THE RIVIERA</h3>
+            <p>South Oakland</p>
+            </a>
+            </div>
+          </li>
+
+            <li class="brokerage development management current mix container-p col-12 col-md-4 col-lg-4 float-left">
+            <div class="portfolio-list col-12 float-left">
+              <a href="portfolio-vision.html">
+                <div class="col-12 p-0 portfolio-image-container">
+            <img src="assets/images/portfolio/visionedit.png" alt="#">
+            </div>
+            <h3>THE VISION</h3>
+            <p>Strip District</p>
+            </a>
+            </div>
+          </li>
+
+            <li class="brokerage development management mix container-p col-12 col-md-4 col-lg-4 float-left">
+            <div class="portfolio-list col-12 float-left">
+              <a href="portfolio-zenith.html">
+                <div class="col-12 p-0 portfolio-image-container">
+            <img src="assets/images/portfolio/zenith.png" alt="#">
+            </div>
+            <h3>ZENITH RIDGE</h3>
+            <p>Southpointe</p>
+            </a>
+            </div>
+
+
+          </li>
+        </ul>
+
+      </div>
+</div><!-- CLOSES MIXITUP CONTAINER -->
+
+
+
+
+
+<footer class="col-12 d-none d-xl-block">
+  <ul class="col-4">
+    <li><a href="https://www.linkedin.com/company/burns-&-scalo-real-estate-services" target="_blank"><img src="assets/linkedin.svg" alt="logo link to LinkedIn"></a></li>
+    <li><a href="https://www.instagram.com/BurnsScaloRE/" target="_blank"><img src="assets/instagram.svg" alt="logo link to Instragram"></a></li>
+    </ul>
+
+
+    <ul class="footer-nav offset-2">
+
+
+      <li><a href="tenant-perks.html">TENANT PERKS</a></li>
+      <li><a href="promotions.html">PROMOTIONS</a></li>
+      <li><a href="careers.html">CAREERS</a></li>
+      <li><a href="privacy-policy.html">PRIVACY POLICY</a></li>
+      <li><a href="accessibility.html">ACCESSIBILITY</a></li>
+      </ul>
+
+  </footer>
+
+
+
+<section class="col-12 d-xl-none">
+        <footer class="mobile-footer col-12">
+
+
+
+            <ul class="col-10 offset-1">
+              <li class="link-outline-2 col-12"><a href="tenant-perks.html">TENANT PERKS</a></li>
+              <li class="link-outline-2 col-12"><a href="privacy-policy.html">PROMOTIONS</a></li>
+              <li class="link-outline-2 border-bottom col-12"><a href="careers.html">CAREERS</a></li>
+              <li class="link-outline-2 col-12"><a href="privacy-policy.html">PRIVACY POLICY</a></li>
+              <li class="link-outline-2 col-12"><a href="accessibility.html">ACCESSIBILITY</a></li>
+
+              </ul>
+
+              <ul class="social-media-list col-4 offset-4">
+                <li><a href="https://www.linkedin.com/company/burns-&-scalo-real-estate-services" target="_blank"><img src="assets/linkedin.svg" alt="logo link to LinkedIn"></a></li>
+                <li><a href="https://www.instagram.com/BurnsScaloRE/" target="_blank"><img src="assets/instagram.svg" alt="logo link to instagram"></a></li>
+                </ul>
+
+          </footer>
+        </section>
+
+
+                    <script src="js/jquery.2.min.js"></script>
+                    <script src="js/jquery.mixitup.min.js"></script>
+                    <script>
+
+                        $('.containMix').mixItUp();
+                    </script>
+
+
+                    <script>
+                    function myFunction() {
+                       var element = document.getElementById("nav");
+                       element.classList.toggle("display-toggle");
+                    }
+                    </script>
+
+
+                    <script>
+                    function subNav() {
+                       var element = document.getElementById("subNavMobile");
+                       element.classList.toggle("display-toggle-subnav");
+                    }
+                    </script>
+
+                    <script>
+                    function subNav1() {
+                       var element = document.getElementById("subNavMobile1");
+                       element.classList.toggle("display-toggle-subnav1");
+                    }
+                    </script>
+</body>
+          </html>
