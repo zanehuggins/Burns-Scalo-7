@@ -1,4 +1,7 @@
 /* BEGIN UNIVERSAL STYLES */
+html {
+  overflow-x: hidden; }
+
 body {
   overflow-x: hidden; }
 
@@ -1604,7 +1607,8 @@ article {
     min-height: 55vh !important;
     height: 55vh;
     padding-bottom: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 10vh; }
     #half-screen .background {
       z-index: -100;
       background-color: #f1f1f1;

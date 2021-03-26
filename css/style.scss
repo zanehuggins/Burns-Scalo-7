@@ -7,6 +7,10 @@ $gray50: #8C8E90;
 $turquoise: #00AC98;
 $green: #C2D500;
 
+
+html{
+  overflow-x: hidden;
+}
 body{
   overflow-x: hidden;
 }
@@ -2391,6 +2395,7 @@ h5{
   height: 55vh;
   padding-bottom: 0;
   margin-bottom: 0;
+  margin-top: 10vh;
   .background{
     z-index: -100;
     background-color: #f1f1f1;
