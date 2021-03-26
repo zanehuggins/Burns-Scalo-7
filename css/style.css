@@ -1632,13 +1632,20 @@ article {
 
   /* ----------------------------------------------------------------- */
   /* HOME PAGE */
-  #half-screen .background {
-    z-index: -100;
-    background-color: #f1f1f1;
-    position: absolute;
-    height: 65%;
-    width: 85%;
-    margin-left: 15%; }
+  #half-screen {
+    min-height: 55vh !important;
+    height: 55vh;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+    #half-screen .background {
+      z-index: -100;
+      background-color: #f1f1f1;
+      position: absolute;
+      height: 65%;
+      width: 85%;
+      margin-left: 15%; }
+    #half-screen h2 {
+      text-align: right; }
 
   #glance h2 {
     font-family: macklin;
