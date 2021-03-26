@@ -1598,7 +1598,25 @@ article {
 
   /* CLOSES #PROMOTION */
   /* ENDS PROMOTIONS */
-  /* ----------------------------------------------------------------- */ }
+  /* ----------------------------------------------------------------- */
+  #half-screen {
+    min-height: 55vh !important;
+    height: 55vh;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+    #half-screen .background {
+      z-index: -100;
+      background-color: #f1f1f1;
+      position: absolute;
+      height: 65%;
+      width: 100%;
+      margin-left: 0; }
+    #half-screen h2 {
+      margin-top: 50px;
+      margin-bottom: 0;
+      padding-bottom: 0; }
+    #half-screen .copy-container {
+      margin-top: 50px; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 992px) {
@@ -1633,6 +1651,7 @@ article {
   /* ----------------------------------------------------------------- */
   /* HOME PAGE */
   #half-screen {
+    margin-top: 0;
     min-height: 55vh !important;
     height: 55vh;
     padding-bottom: 0;
