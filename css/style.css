@@ -518,7 +518,8 @@ header {
   z-index: 200;
   background-color: white;
   position: fixed;
-  border-bottom: 1px solid lightgray; }
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0; }
   header div {
     float: left; }
   header img {
@@ -1616,10 +1617,18 @@ article {
       margin-bottom: 0;
       padding-bottom: 0; }
     #half-screen .copy-container {
-      margin-top: 50px; } }
+      margin-top: 50px; }
+
+  #glance .superscript {
+    margin-left: 25%; }
+  #glance p {
+    bottom: 40%; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 992px) {
+  #nav {
+    padding-left: 5vw; }
+
   #promotion {
     height: 100vh; }
     #promotion h1 {
@@ -1664,7 +1673,10 @@ article {
       width: 85%;
       margin-left: 15%; }
     #half-screen h2 {
-      text-align: right; }
+      text-align: right;
+      padding-top: 30px; }
+    #half-screen .copy-container {
+      padding-top: 30px; }
 
   #glance h2 {
     font-family: macklin;
@@ -1689,7 +1701,8 @@ article {
       padding: 0 !important;
       position: absolute;
       left: 22.5%;
-      top: 0; }
+      top: 0;
+      margin: 0; }
     #glance h2 .h2-line2 {
       text-align: center !important;
       font-size: 100px;
@@ -1835,6 +1848,9 @@ article {
       float: right;
       margin-right: 15px; }
 
+  .main-nav {
+    height: 100%; }
+
   #nav {
     display: block;
     z-index: 300;
@@ -1866,7 +1882,8 @@ article {
       transition: 0s;
       margin-bottom: 0vh;
       float: left;
-      font-size: 12px; }
+      font-size: 12px;
+      height: 100%; }
     .main-nav a {
       color: #333033;
       text-decoration: none; }
@@ -1934,75 +1951,96 @@ article {
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-    padding-top: 18px; }
+    padding-top: 30px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 0;
+    top: 48px;
+    left: -25vw;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid lightgray;
+    transition: 1s;
+    padding-left: 49.25%; }
     #subnav li {
       float: left;
-      position: absolute;
       padding-left: 0;
       padding-right: 0;
-      height: 50px;
-      width: 150%;
-      left: -25%;
       text-align: center;
-      background-color: white;
-      border-top: 1px solid lightgray;
-      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-      background-color: white;
-      padding-top: 15px; }
-    #subnav .sub-2 {
-      margin-top: 50px; }
-    #subnav .sub-3 {
-      margin-top: 100px; }
-    #subnav a {
-      height: 100%;
-      padding-top: 15px;
-      padding-bottom: 10px; }
+      width: 15%;
+      margin-top: 0px;
+      height: auto;
+      position: static; }
 
   #subNav1 {
     display: none;
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-    padding-top: 18px; }
+    padding-top: 18px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 0;
+    top: 48px;
+    left: -25vw;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-top: 1px solid lightgray;
+    opacity: 0;
+    transition: 1s;
+    padding-left: 49.5%; }
     #subNav1 li {
       float: left;
-      position: absolute;
       padding-left: 0;
       padding-right: 0;
-      height: 50px;
-      width: 150%;
-      left: -25%;
       text-align: center;
-      background-color: white;
-      border-top: 1px solid lightgray;
-      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-      background-color: white;
-      padding-top: 15px; }
-    #subNav1 .sub-2 {
-      margin-top: 50px; }
-    #subNav1 .sub-3 {
-      margin-top: 100px; }
-    #subNav1 a {
-      height: 100%;
-      padding-top: 15px;
-      padding-bottom: 10px; }
+      width: 15%;
+      margin-top: 0px;
+      height: auto; }
 
   #nav .nav-item-2:hover a {
     font-weight: normal; }
   #nav li:hover #subnav {
-    display: block; }
+    display: block;
+    opacity: 1;
+    animation-name: foldIn;
+    animation-duration: 1s; }
+    #nav li:hover #subnav li {
+      animation-name: subnavFade;
+      animation-duration: 1s;
+      border: 0; }
     #nav li:hover #subnav li:hover {
-      background-color: #f1f1f1; }
+      padding-top: 1px;
+      border: 0; }
 
   #nav .nav-item-1:hover a {
     font-weight: normal; }
   #nav li:hover #subNav1 {
-    display: block; }
+    display: block;
+    opacity: 1;
+    animation-name: foldIn;
+    animation-duration: 1s; }
+    #nav li:hover #subNav1 li {
+      animation-name: subnavFade;
+      animation-duration: 1s; }
     #nav li:hover #subNav1 li:hover {
-      background-color: #f1f1f1; }
+      padding-top: 12.5px;
+      border: 0; }
 
+  @keyframes subnavFade {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @keyframes foldIn {
+    from {
+      transform: scaleY(0);
+      transform-origin: top; }
+    to {
+      transform: scaleY(1);
+      transform-origin: top; } }
   /* END NAV */
   #container-2 {
     padding-top: 30vh; }

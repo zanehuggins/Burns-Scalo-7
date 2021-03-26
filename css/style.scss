@@ -736,6 +736,7 @@ header{
   background-color: white;
   position: fixed;
   border-bottom: 1px solid lightgray;
+  padding-bottom: 0;
 
   div{
     float: left;
@@ -2409,6 +2410,15 @@ padding-bottom: 0;
 }
 
 
+#glance{
+  .superscript{
+    margin-left: 25%;
+  }
+  p{
+    bottom: 40%;
+  }
+}
+
 }/* !!CLOSES 768PX @MEDIA QUERY!! */
 
 /* ----------------------------------------------------------------- */
@@ -2417,6 +2427,11 @@ padding-bottom: 0;
 
 
 @media (min-width: 992px){
+
+#nav{
+  padding-left: 5vw;
+}
+
   #promotion{
     height: 100vh;
 
@@ -2480,7 +2495,12 @@ padding-bottom: 0;
   }
   h2{
     text-align: right;
+    padding-top: 30px;
   }
+  .copy-container{
+    padding-top: 30px;
+  }
+
 }
 
 
@@ -2513,6 +2533,7 @@ margin: auto;
 position: absolute;
 left: 22.5%;
 top: 0;
+margin: 0;
 }
 
 
@@ -2760,6 +2781,10 @@ h2{
 }
 
 
+.main-nav{
+  height: 100%;
+}
+
 
 #nav{
   display: block;
@@ -2795,6 +2820,7 @@ padding-right: 1vw;
   margin-bottom: 0vh;
   float: left;
   font-size: 12px;
+  height: 100%;
   }
   a{
   color: $black;
@@ -2885,37 +2911,32 @@ padding-right: 1vw;
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-  padding-top: 18px;
+    padding-top: 30px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 0;
+    top: 48px;
+    left: -25vw;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid lightgray;
+    transition: 1s;
+    padding-left: 49.25%;
+
 
 
     li{
       float: left;
-      position: absolute;;
       padding-left: 0;
       padding-right: 0;
-      height: 50px;
-      width: 150%;
-      left: -25%;
       text-align: center;
-      background-color: white;
-      border-top: 1px solid lightgray;
-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
-      background-color: white;
-      padding-top: 15px;
+      width: 15%;
+      margin-top: 0px;
+      height: auto;
+      position: static;
+    }
 
-    }
-    .sub-2{
-      margin-top: 50px;
-    }
-    .sub-3{
-      margin-top: 100px;
-    }
-    a{
-      height: 100%;
-      padding-top: 15px;
-      padding-bottom: 10px;
-    }
   }
 
 
@@ -2926,53 +2947,64 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
     list-style: none;
     margin: 0;
     padding: 0;
-    position: relative;
-  padding-top: 18px;
+    padding-top: 18px;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    z-index: 0;
+    top: 48px;
+    left: -25vw;
+    right: 0;
+    background-color: rgba(255, 255, 255, .8);
+    border-top: 1px solid lightgray;
+    opacity: 0;
+    transition: 1s;
+    padding-left: 49.5%;
+
 
 
     li{
       float: left;
-      position: absolute;;
       padding-left: 0;
       padding-right: 0;
-      height: 50px;
-      width: 150%;
-      left: -25%;
       text-align: center;
-      background-color: white;
-      border-top: 1px solid lightgray;
-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
-      background-color: white;
-      padding-top: 15px;
+      width: 15%;
+      margin-top: 0px;
+      height: auto;
+    }
 
-    }
-    .sub-2{
-      margin-top: 50px;
-    }
-    .sub-3{
-      margin-top: 100px;
-    }
-    a{
-      height: 100%;
-      padding-top: 15px;
-      padding-bottom: 10px;
-    }
+
   }
 
   #nav{
+  .nav-item-2{
 
+  }
     .nav-item-2:hover{
       a{
       font-weight: normal;
     }
+
     }
 
     li:hover{
+
       #subnav{
         display: block;
-        li:hover{
+        opacity: 1;
+        animation-name: foldIn;
+        animation-duration: 1s;
 
-              background-color: #f1f1f1;
+
+      li{
+          animation-name: subnavFade;
+          animation-duration: 1s;
+          border: 0;
+      }
+
+        li:hover{
+          padding-top: 1px;
+          border: 0;
         }
       }
     }
@@ -2984,6 +3016,7 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
 
   #nav{
 .nav-item-1{
+
 }
     .nav-item-1:hover{
       a{
@@ -2993,16 +3026,47 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
     }
 
     li:hover{
+
       #subNav1{
         display: block;
-        li:hover{
+        opacity: 1;
+        animation-name: foldIn;
+        animation-duration: 1s;
 
-              background-color: #f1f1f1;
+
+      li{
+          animation-name: subnavFade;
+          animation-duration: 1s;
+      }
+
+        li:hover{
+          padding-top: 12.5px;
+          border: 0;
         }
       }
     }
   }
 
+
+@keyframes subnavFade{
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1
+}
+}
+
+@keyframes foldIn{
+  from{
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  to{
+    transform: scaleY(1);
+        transform-origin: top;
+  }
+}
 
 /* END NAV */
 
