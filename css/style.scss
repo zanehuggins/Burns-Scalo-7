@@ -2419,6 +2419,30 @@ padding-bottom: 0;
   }
 }
 
+
+
+#portfolio{
+  #discover-container{
+  padding-top: 0;
+
+  .portfolio-image-container{
+    height: 80%;
+  }
+
+  .container-p{
+    min-height: 45vh!important;
+}
+  .portfolio-list{
+  min-height: 45vh!important;
+
+}
+
+.portfolio-container{
+  min-height: 45vh!important;
+}
+}
+}
+
 }/* !!CLOSES 768PX @MEDIA QUERY!! */
 
 /* ----------------------------------------------------------------- */
@@ -2579,6 +2603,9 @@ p{
   }
 
 }
+
+
+
 /* ----------------------------------------------------------------- */
 
 }

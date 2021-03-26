@@ -1622,7 +1622,18 @@ article {
   #glance .superscript {
     margin-left: 25%; }
   #glance p {
-    bottom: 40%; } }
+    bottom: 40%; }
+
+  #portfolio #discover-container {
+    padding-top: 0; }
+    #portfolio #discover-container .portfolio-image-container {
+      height: 80%; }
+    #portfolio #discover-container .container-p {
+      min-height: 45vh !important; }
+    #portfolio #discover-container .portfolio-list {
+      min-height: 45vh !important; }
+    #portfolio #discover-container .portfolio-container {
+      min-height: 45vh !important; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 992px) {
