@@ -19,7 +19,7 @@ main{
 }
 
 section{
-    height: 100vh;
+    min-height: 100vh;
     float: left;
     position: relative;
     overflow: hidden;
@@ -361,6 +361,7 @@ li{
 
 #half-screen{
   height: 60vh;
+  float: left;
 
 .copy-container{
   margin-top: 100px;
@@ -368,6 +369,7 @@ li{
 
 h2{
   margin-top: 100px;
+  text-align: left;
 }
 
   .background{
@@ -375,8 +377,8 @@ h2{
     background-color: #f1f1f1;
     position: absolute;
     height: 65%;
-    width: 85%;
-    margin-left: 15%;
+    width: 100%;
+    margin-left: 0;
   }
 }
 
@@ -988,7 +990,7 @@ margin: auto;
  font-size: 60px;
  padding: 0!important;
 position: absolute;
-left: 22.5%;
+left: 2%;
 top: 0;
 }
 
@@ -996,7 +998,7 @@ top: 0;
 
   .h2-line2{
     text-align: center!important;
-    font-size: 100px;
+    font-size: 80px;
     margin: 0!important;
     padding-bottom: 0px!important;
     line-height: 0!important;
@@ -1004,7 +1006,7 @@ top: 0;
 }
 
 p{
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
   font-family: macklin;
   color: gray;
@@ -1013,7 +1015,7 @@ p{
   text-align: center;
   padding-top: 50px;
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
 }
   .green-underline{
     border-bottom: 10px solid $green;
@@ -1461,7 +1463,7 @@ p{
     }
 
   }
-  
+
 .filters{
   margin-top: 10vh;
   float: left;
@@ -2431,7 +2433,104 @@ h5{
       margin-top: 15px;
     }
   }
+
+  /* ----------------------------------------------------------------- */
+
+  /* HOME PAGE */
+
+#half-screen{
+  .background{
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    margin-left: 15%;
+  }
 }
+
+
+
+#glance{
+  h2{
+    font-family: macklin;
+    text-align: center!important;
+    width: auto;
+    margin-left: 20%;
+    line-height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+
+    font-size: 120px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+margin: auto;
+
+
+.superscript{
+ vertical-align: super;
+ font-size: 60px;
+ padding: 0!important;
+position: absolute;
+left: 22.5%;
+top: 0;
+}
+
+
+
+  .h2-line2{
+    text-align: center!important;
+    font-size: 100px;
+    margin: 0!important;
+    padding-bottom: 0px!important;
+    line-height: 0!important;
+  }
+}
+
+p{
+  font-size: 30px;
+  font-style: italic;
+  font-family: macklin;
+  color: gray;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 25%;
+}
+  .green-underline{
+    border-bottom: 10px solid $green;
+    padding: 0!important;
+  }
+
+
+  .turquoise-underline{
+    border-bottom: 10px solid $turquoise;
+  }
+
+  .orange-underline{
+    border-bottom: 10px solid $orange;
+  }
+  .number-container{
+    float: left;
+    height: 40vh;
+    position: relative;
+  }
+
+}
+/* ----------------------------------------------------------------- */
+
+}
+
+
+
+
 
 @media (min-width: 1024px){
 
