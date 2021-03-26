@@ -51,7 +51,7 @@ object {
   z-index: 1; }
 
 .small-headline {
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 2px;
   color: #333033;
   padding-left: 5px; }
@@ -153,13 +153,14 @@ p {
 
 .links-container {
   float: left;
-  margin-top: 50px; }
+  margin-top: 35px; }
 
 .links-container-2 {
   float: left;
-  margin-top: 50px;
+  margin-top: 0px;
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  padding-top: 0; }
   .links-container-2 p {
     float: left; }
   .links-container-2 .fancy-text {
@@ -259,6 +260,20 @@ p {
   background-color: #F26524; }
 
 /* SNAP SCROLL */
+#half-screen {
+  height: 60vh; }
+  #half-screen .copy-container {
+    margin-top: 100px; }
+  #half-screen h2 {
+    margin-top: 100px; }
+  #half-screen .background {
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    margin-left: 15%; }
+
 #page-404 {
   padding-top: 25vh !important; }
   #page-404 a {
@@ -602,6 +617,11 @@ footer {
     float: left; }
   #container-2 p {
     text-align: left; }
+  #container-2 .body-copy {
+    margin-top: 35px;
+    float: left;
+    margin-bottom: 0;
+    padding-bottom: 0; }
 
 #push-mobile img {
   position: absolute;
@@ -656,6 +676,59 @@ footer {
     position: absolute;
     height: 100%;
     left: -5vw; }
+
+#glance h2 {
+  font-family: macklin;
+  text-align: center !important;
+  width: auto;
+  margin-left: 20%;
+  line-height: 80px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 10px;
+  font-size: 120px;
+  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
+  #glance h2 .superscript {
+    vertical-align: super;
+    font-size: 60px;
+    padding: 0 !important;
+    position: absolute;
+    left: 22.5%;
+    top: 0; }
+  #glance h2 .h2-line2 {
+    text-align: center !important;
+    font-size: 100px;
+    margin: 0 !important;
+    padding-bottom: 0px !important;
+    line-height: 0 !important; }
+#glance p {
+  font-size: 30px;
+  font-style: italic;
+  font-family: macklin;
+  color: gray;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 25%; }
+#glance .green-underline {
+  border-bottom: 10px solid #C2D500;
+  padding: 0 !important; }
+#glance .turquoise-underline {
+  border-bottom: 10px solid #00AC98; }
+#glance .orange-underline {
+  border-bottom: 10px solid #F26524; }
+#glance .number-container {
+  float: left;
+  height: 40vh;
+  position: relative; }
 
 #container-4 {
   padding: 0; }
@@ -912,6 +985,31 @@ footer {
 /* ----------------------------------------------------------------- */
 /* BEGINS PORTFOLIO */
 /* PORTFOLIO PAGE */
+.filters-2 {
+  margin-top: 0;
+  float: left;
+  list-style: none;
+  height: 25px; }
+  .filters-2 .margin-left {
+    margin-left: 19.5vw; }
+  .filters-2 li {
+    float: left; }
+    .filters-2 li a {
+      float: left;
+      float: left;
+      color: gray;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-family: gotham;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      width: 100%; }
+    .filters-2 li a:focus {
+      border-bottom: 3px solid #F26524; }
+
 .filters {
   margin-top: 10vh;
   float: left;

@@ -76,7 +76,7 @@ object{
 }
 
 .small-headline{
-  font-size: 18px;
+  font-size: 22px;
   letter-spacing: 2px;
   color: $black;
   padding-left: 5px;
@@ -216,14 +216,15 @@ font-size: 16px;
 
 .links-container{
   float: left;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .links-container-2{
   float: left;
-  margin-top: 50px;
+  margin-top: 0px;
   list-style: none;
   padding-left: 0;
+  padding-top: 0;
 
 p{
   float: left;
@@ -358,7 +359,26 @@ li{
 }
 /* SNAP SCROLL */
 
+#half-screen{
+  height: 60vh;
 
+.copy-container{
+  margin-top: 100px;
+}
+
+h2{
+  margin-top: 100px;
+}
+
+  .background{
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 65%;
+    width: 85%;
+    margin-left: 15%;
+  }
+}
 
 
 
@@ -855,6 +875,12 @@ ul{
     p{
       text-align: left;
     }
+    .body-copy{
+      margin-top: 35px;
+      float: left;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
 }
 
 
@@ -932,6 +958,82 @@ padding-top: 7vh!important;
     height: 100%;
     left: -5vw;
   }
+}
+
+
+
+#glance{
+  h2{
+    font-family: macklin;
+    text-align: center!important;
+    width: auto;
+    margin-left: 20%;
+    line-height: 80px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+
+    font-size: 120px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+margin: auto;
+
+
+.superscript{
+ vertical-align: super;
+ font-size: 60px;
+ padding: 0!important;
+position: absolute;
+left: 22.5%;
+top: 0;
+}
+
+
+
+  .h2-line2{
+    text-align: center!important;
+    font-size: 100px;
+    margin: 0!important;
+    padding-bottom: 0px!important;
+    line-height: 0!important;
+  }
+}
+
+p{
+  font-size: 30px;
+  font-style: italic;
+  font-family: macklin;
+  color: gray;
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 50px;
+  position: absolute;
+  bottom: 25%;
+}
+  .green-underline{
+    border-bottom: 10px solid $green;
+    padding: 0!important;
+  }
+
+
+  .turquoise-underline{
+    border-bottom: 10px solid $turquoise;
+  }
+
+  .orange-underline{
+    border-bottom: 10px solid $orange;
+  }
+  .number-container{
+    float: left;
+    height: 40vh;
+    position: relative;
+  }
+
 }
 
 
@@ -1321,7 +1423,45 @@ padding-top: 7vh!important;
 /* BEGINS PORTFOLIO */
 
 /* PORTFOLIO PAGE */
+.filters-2{
+  margin-top: 0;
+  float: left;
+    list-style: none;
+    height: 25px;
 
+  .margin-left{
+  margin-left: 19.5vw;
+  }
+
+    li{
+      float: left;
+      a{
+        float: left;
+      float: left;
+      color: gray;
+      font-size: 14px;
+      letter-spacing: 2px;
+      font-family: gotham;
+      text-decoration: none;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      width: 100%;
+    }
+  li:hover{
+    a{
+
+    }
+  }
+
+    a:focus{
+          border-bottom: 3px solid $orange;
+    }
+    }
+
+  }
+  
 .filters{
   margin-top: 10vh;
   float: left;
