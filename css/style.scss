@@ -358,11 +358,7 @@ li{
 }
 /* SNAP SCROLL */
 
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
+
 
 
 
@@ -1027,7 +1023,6 @@ padding-top: 7vh!important;
   height: 100vh;
   margin-top: 300vh;
   z-index: 175!important;
-
 }
 
 @keyframes scale {
@@ -1588,11 +1583,9 @@ background-color: white;
               float: left;
               font-size: 14px;
               transition: .5s ease;
-
-
-
             }
 }
+
       .container-p{
         float: left;
         padding: 5px;

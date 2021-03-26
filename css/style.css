@@ -259,11 +259,6 @@ p {
   background-color: #F26524; }
 
 /* SNAP SCROLL */
-.scroll-container {
-  height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory; }
-
 #page-404 {
   padding-top: 25vh !important; }
   #page-404 a {
