@@ -1734,7 +1734,7 @@ article {
     text-align: center;
     padding-top: 50px;
     position: absolute;
-    bottom: 25%; }
+    bottom: 25px; }
   #glance .green-underline {
     border-bottom: 10px solid #C2D500;
     padding: 0 !important; }
