@@ -673,25 +673,7 @@ text-decoration: none;
   display: none;
 }
 
-.display-toggle-subnav1{
-  display: block;
-  animation-name: fade;
-  transition: .5s;
-  animation-duration: 1s;
-  animation-iteration-count: 1;
-  opacity: 1;
-      border-left: 1px solid gray;
 
-  .sub-1{
-animation: fade 1s ease;
-  }
-  .sub-2{
-animation: fade 1.5s ease;
-  }
-  .sub-3{
-animation: fade 2s ease;
-  }
-}
 
 
 .display-toggle-subnav{
@@ -990,8 +972,34 @@ ul{
   float: left;
   overflow: hidden;
   margin-bottom: 15vh;
+.copy-container{
+  margin-top: 25px;
+  padding-bottom: 25px;
+  float: left;
+}
+
+h2{
+  margin-top: 75px;
+  text-align: left;
+}
+
+  .background{
+    z-index: -100;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+}
 
 
+
+#half-screen-2{
+  min-height: 37.5vh;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 15vh;
 .copy-container{
   margin-top: 25px;
   padding-bottom: 25px;
@@ -1678,6 +1686,7 @@ a{
 
 /* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
 #press-page{
+  min-height: 0vh;
 .filters{
   padding-left: 0;
 }
@@ -2732,6 +2741,15 @@ p{
   }
 }
 
+#half-screen-2{
+    min-height: 15vh;
+  .copy-container{
+    margin-top: 75px;
+    padding-bottom: 75px;
+    float: left;
+  }
+}
+
 
 #article{
   p{
@@ -3084,7 +3102,6 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
 
 #home-press{
 #press-page{
-
   .portfolio-container{
     li{
       a{
