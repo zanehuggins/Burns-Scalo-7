@@ -53,19 +53,3 @@
     font-weight: 600;
     font-style: italic;
 }
-
-@font-face {
-    font-family: 'macklin';
-    src: url('macklin-display-italic.woff2') format('woff2'),
-         url('macklin-display-italic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'macklin';
-    src: url('macklin-display-medium.woff2') format('woff2'),
-         url('macklin-display-medium.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
