@@ -287,6 +287,12 @@ p {
 .orange-bg {
   background-color: #F26524; }
 
+iframe {
+  width: 120vw;
+  height: 120vh;
+  position: absolute;
+  left: -10vw; }
+
 #featured-projects .small-headline {
   font-size: 18px !important;
   letter-spacing: 2px;
