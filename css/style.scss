@@ -803,6 +803,10 @@ animation: fade 2s ease;
   }
 }
 
+
+
+
+
 /* ENDS UNIVERSAL STYLES */
 
 /* ----------------------------------------------------------------- */
@@ -976,6 +980,10 @@ ul{
   margin-top: 25px;
   padding-bottom: 25px;
   float: left;
+  h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 h2{
@@ -990,6 +998,10 @@ h2{
     height: 100%;
     width: 100%;
     margin-left: 0;
+  }
+
+  .video-container{
+    margin-bottom: 75px;
   }
 }
 

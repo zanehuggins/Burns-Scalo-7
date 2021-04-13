@@ -702,6 +702,9 @@ footer {
     margin-top: 25px;
     padding-bottom: 25px;
     float: left; }
+    #half-screen .copy-container h2 {
+      margin-top: 0;
+      margin-bottom: 20px; }
   #half-screen h2 {
     margin-top: 75px;
     text-align: left; }
@@ -712,6 +715,8 @@ footer {
     height: 100%;
     width: 100%;
     margin-left: 0; }
+  #half-screen .video-container {
+    margin-bottom: 75px; }
 
 #half-screen-2 {
   min-height: 37.5vh;
