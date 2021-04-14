@@ -82,7 +82,7 @@
 
 
 
-        <section class="col-12" id="container-2">
+        <section class="col-10 col-md-12 offset-1 offset-md-0" id="container-2">
 
 
 
@@ -155,23 +155,27 @@
         </section>
 
 
-        <section class="col-10 offset-1">
-            <h2 class="align-right col-1 reveal-p">WE<br>ARE<br>BOLD</h2>
-            <img src="assets/images/bold.png" alt="#" class="col-10">
-          </section>
+<section class="col-12" id="parallax">
+        <div class="col-12">
+            <h2 class="align-right col-1"><span class="reveal-p">WE</span><br><span class="reveal-p-3">ARE</span><br><span class="reveal-p-3">BOLD</span></h2>
+            <img src="assets/images/bold.png" alt="#" class="col-8 reveal-photo">
+            <p class="vertical-p">ZENITH RIDGE | SOUTHPOINTE</p>
+          </div>
 
 
-          <section class="col-10 offset-1">
-            <h2 class="align-right col-1 reveal-p">WE<br>ARE<br>REAL</h2>
-            <img src="assets/images/real.png" alt="#" class="col-10">
-          </section>
+          <div class="col-12">
+            <h2 class="align-right col-1"><span class="reveal-p">WE</span><br><span class="reveal-p-3">ARE</span><br><span class="reveal-p-3">REAL</span></h2>
+            <img src="assets/images/real.png" alt="#" class="col-8 reveal-photo">
+            <p class="vertical-p">THE BENTLEY | GREENTREE</p>
+          </div>
 
 
-          <section class="col-10 offset-1">
-            <h2 class="align-right col-1 reveal-p">WE<br>ARE<br>LUXE</h2>
-            <img src="assets/images/real.png" alt="#" class="col-10">
-          </section>
-
+          <div class="col-12">
+            <h2 class="align-right col-1"><span class="reveal-p">WE</span><br><span class="reveal-p-3">ARE</span><br><span class="reveal-p-3">LUXE</span></h2>
+            <img src="assets/images/luxe.png" alt="#" class="col-8 reveal-photo">
+            <p class="vertical-p">THE RIVIERA | SOUTH OAKLAND</p>
+          </div>
+</section>
 
 
 
@@ -484,7 +488,41 @@ ScrollReveal().reveal('.reveal-1', { delay: 250 });
               reset: true,
               distance: '150%',
               origin: 'right',
+            })
 
+            ScrollReveal().reveal('.reveal-p', {
+              reset: true,
+              distance: '-150px',
+              origin: 'right',
+              duration: 3000,
+            })
+
+            ScrollReveal().reveal('.reveal-p-2', {
+              reset: true,
+              distance: '-150%',
+              origin: 'right',
+              duration: 3500,
+            })
+
+            ScrollReveal().reveal('.reveal-p-3', {
+              reset: true,
+              distance: '-150%',
+              origin: 'right',
+              duration: 4000,
+            })
+
+            ScrollReveal().reveal('.reveal-photo', {
+              reset: true,
+              distance: '150%',
+              origin: 'top',
+              duration: 5000,
+            })
+
+            ScrollReveal().reveal('.vertical-p', {
+              reset: true,
+              distance: '250%',
+              origin: 'right',
+              duration: 5000,
             })
           </script>
 
