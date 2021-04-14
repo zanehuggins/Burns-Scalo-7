@@ -301,6 +301,9 @@ iframe {
   bottom: -10%;
   min-height: 100%; }
 
+#what-we-do #container-1 {
+  max-height: 100vh; }
+
 #careers-half {
   height: auto;
   min-height: 0;
