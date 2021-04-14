@@ -295,9 +295,10 @@ iframe {
   top: -9vh; }
 
 .hero {
-  width: 100%;
+  min-width: 100%;
   position: absolute;
-  bottom: -10%; }
+  bottom: -10%;
+  min-height: 100%; }
 
 #careers-half {
   height: auto;
@@ -320,18 +321,18 @@ iframe {
     padding-top: 15vh;
     padding-bottom: 15vh;
     position: relative;
-    height: 100vh;
+    height: 50vh;
     overflow-y: hidden;
-    overflow-x: visible !important; }
+    overflow-x: hidden; }
     #parallax div span {
       z-index: 10;
       float: left; }
     #parallax div h2 {
       z-index: 10;
-      font-size: 150px;
-      line-height: 130px;
+      font-size: 50px;
+      line-height: 50px;
       position: absolute;
-      left: 50px; }
+      left: 10px; }
     #parallax div img {
       z-index: -10;
       float: left;
@@ -342,10 +343,10 @@ iframe {
       right: 0;
       margin: auto; }
     #parallax div .vertical-p {
+      font-size: 14px;
       position: absolute;
-      right: 0;
-      transform: rotate(90deg);
-      top: 50%;
+      padding-right: 20px;
+      top: 80%;
       right: 0%;
       letter-spacing: 3px; }
 
@@ -1662,6 +1663,46 @@ article {
       color: black;
       float: left; }
 
+  /* ----------------------------------------------------------------- */
+  #parallax {
+    float: left; }
+    #parallax div:nth-child(2) {
+      background-color: #f1f1f1;
+      z-index: -10; }
+    #parallax div {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+      position: relative;
+      height: 100vh;
+      overflow-y: hidden;
+      overflow-x: visible !important; }
+      #parallax div span {
+        z-index: 10;
+        float: left; }
+      #parallax div h2 {
+        z-index: 10;
+        font-size: 150px;
+        line-height: 130px;
+        position: absolute;
+        left: 50px; }
+      #parallax div img {
+        z-index: -10;
+        float: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      #parallax div .vertical-p {
+        position: absolute;
+        right: 0;
+        transform: rotate(90deg);
+        top: 50%;
+        right: 0%;
+        letter-spacing: 3px; }
+
+  /* ----------------------------------------------------------------- */
   /* ----------------------------------------------------------------- */
   /* BEGINS TEAM */
   #leadership {

@@ -391,9 +391,10 @@ iframe{
 }
 
 .hero{
-  width: 100%;
+  min-width: 100%;
   position: absolute;
   bottom: -10%;
+  min-height: 100%
 }
 
 #careers-half{
@@ -428,9 +429,9 @@ iframe{
     padding-top: 15vh;
     padding-bottom: 15vh;
     position: relative;
-    height: 100vh;
+    height: 50vh;
     overflow-y: hidden;
-    overflow-x: visible!important;
+    overflow-x: hidden;
     span{
       z-index: 10;
       float: left;
@@ -438,10 +439,10 @@ iframe{
     }
     h2{
       z-index: 10;
-      font-size: 150px;
-      line-height: 130px;
+      font-size: 50px;
+      line-height: 50px;
       position: absolute;
-      left: 50px;
+      left: 10px;
 
     }
     img{
@@ -455,10 +456,11 @@ iframe{
       margin: auto;
     }
     .vertical-p{
+      font-size: 14px;
       position: absolute;
-      right: 0;
-      transform: rotate(90deg);
-      top: 50%;
+      padding-right: 20px;
+
+      top: 80%;
       right: 0%;
       letter-spacing: 3px;
     }
@@ -2431,6 +2433,68 @@ padding-top: 7vh!important;
       float: left;
     }
 }
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------- */
+
+
+#parallax{
+    float: left;
+
+    div:nth-child(2){
+      background-color: #f1f1f1;
+      z-index: -10;
+    }
+
+
+  div{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: visible!important;
+    span{
+      z-index: 10;
+      float: left;
+
+    }
+    h2{
+      z-index: 10;
+      font-size: 150px;
+      line-height: 130px;
+      position: absolute;
+      left: 50px;
+
+    }
+    img{
+      z-index: -10;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .vertical-p{
+      position: absolute;
+      right: 0;
+      transform: rotate(90deg);
+      top: 50%;
+      right: 0%;
+      letter-spacing: 3px;
+    }
+  }
+}
+
+/* ----------------------------------------------------------------- */
 
 
 
