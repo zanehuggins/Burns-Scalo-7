@@ -451,6 +451,12 @@ iframe{
       line-height: 50px;
       position: absolute;
       left: 10px;
+      background-color: rgba(255, 255, 255, .8);
+      width: 35vw;
+      padding: 25px;
+      width: auto;
+      top: 7%;
+      backdrop-filter: blur(8px);
 
     }
     img{
