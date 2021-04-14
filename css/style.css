@@ -321,6 +321,8 @@ iframe {
   #parallax div:nth-child(2) {
     background-color: #f1f1f1;
     z-index: -10; }
+    #parallax div:nth-child(2) h2 {
+      background-color: rgba(244, 244, 244, 0.8); }
   #parallax div {
     padding-top: 15vh;
     padding-bottom: 15vh;
@@ -333,15 +335,15 @@ iframe {
       float: left; }
     #parallax div h2 {
       z-index: 10;
-      font-size: 50px;
-      line-height: 50px;
+      font-size: 40px;
+      line-height: 40px;
       position: absolute;
       left: 10px;
       background-color: rgba(255, 255, 255, 0.8);
       width: 35vw;
       padding: 25px;
       width: auto;
-      top: 7%;
+      top: 0;
       backdrop-filter: blur(8px); }
     #parallax div img {
       z-index: -10;
@@ -1683,7 +1685,7 @@ article {
       padding-top: 15vh;
       padding-bottom: 15vh;
       position: relative;
-      height: 100vh;
+      height: 60vh;
       overflow-y: hidden;
       overflow-x: visible !important; }
       #parallax div span {
@@ -1691,10 +1693,11 @@ article {
         float: left; }
       #parallax div h2 {
         z-index: 10;
-        font-size: 150px;
-        line-height: 130px;
+        font-size: 75px;
+        line-height: 75px;
         position: absolute;
-        left: 50px; }
+        left: 50px;
+        top: 10%; }
       #parallax div img {
         z-index: -10;
         float: left;
@@ -1707,9 +1710,7 @@ article {
       #parallax div .vertical-p {
         position: absolute;
         right: 0;
-        transform: rotate(90deg);
-        top: 50%;
-        right: 0%;
+        top: 85%;
         letter-spacing: 3px; }
 
   /* ----------------------------------------------------------------- */
@@ -1995,7 +1996,47 @@ article {
   #leadership {
     padding: 10vh; }
     #leadership .container-p .portfolio-list {
-      min-height: 325px; } }
+      min-height: 325px; }
+
+  /* ----------------------------------------------------------------- */
+  #parallax {
+    float: left; }
+    #parallax div:nth-child(2) {
+      background-color: #f1f1f1;
+      z-index: -10; }
+    #parallax div {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+      position: relative;
+      height: 100vh;
+      overflow-y: hidden;
+      overflow-x: visible !important; }
+      #parallax div span {
+        z-index: 10;
+        float: left; }
+      #parallax div h2 {
+        z-index: 10;
+        position: absolute;
+        left: 50px;
+        top: 10%; }
+      #parallax div img {
+        z-index: -10;
+        float: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      #parallax div .vertical-p {
+        position: absolute;
+        right: 0;
+        transform: rotate(90deg);
+        right: -2%;
+        letter-spacing: 3px;
+        top: 50%; }
+
+  /* ----------------------------------------------------------------- */ }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 /* !!OPENS 1200PX @MEDIA QUERY!! */
@@ -2363,7 +2404,49 @@ article {
     height: auto;
     min-height: 40vh; }
     #portfolio #press .container-p .portfolio-list .portfolio-image-container {
-      height: 220px; } }
+      height: 220px; }
+
+  /* ----------------------------------------------------------------- */
+  #parallax {
+    float: left; }
+    #parallax div:nth-child(2) {
+      background-color: #f1f1f1;
+      z-index: -10; }
+    #parallax div {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+      position: relative;
+      height: 100vh;
+      overflow-y: hidden;
+      overflow-x: visible !important; }
+      #parallax div span {
+        z-index: 10;
+        float: left; }
+      #parallax div h2 {
+        z-index: 10;
+        font-size: 100px;
+        line-height: 100px;
+        position: absolute;
+        left: 50px;
+        top: 10%; }
+      #parallax div img {
+        z-index: -10;
+        float: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      #parallax div .vertical-p {
+        position: absolute;
+        right: 0;
+        transform: rotate(90deg);
+        right: -2%;
+        letter-spacing: 3px;
+        top: 50%; }
+
+  /* ----------------------------------------------------------------- */ }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {
   #promotion .form-container {
