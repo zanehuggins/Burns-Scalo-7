@@ -743,6 +743,8 @@ letter-spacing: 2px;
 transition: 1s;
 margin-bottom: 5vh;
 float: left;
+width: 100%;
+
 }
 a{
 color: $black;
@@ -3492,6 +3494,7 @@ padding-right: 1vw;
   transition: 0s;
   margin-bottom: 0vh;
   float: left;
+  width: auto;
   font-size: 12px;
   }
   a{

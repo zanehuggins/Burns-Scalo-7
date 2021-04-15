@@ -548,7 +548,8 @@ nav {
     letter-spacing: 2px;
     transition: 1s;
     margin-bottom: 5vh;
-    float: left; }
+    float: left;
+    width: 100%; }
   .main-nav a {
     color: #333033;
     text-decoration: none; }
@@ -2352,6 +2353,7 @@ article {
       transition: 0s;
       margin-bottom: 0vh;
       float: left;
+      width: auto;
       font-size: 12px; }
     .main-nav a {
       color: #333033;
