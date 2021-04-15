@@ -502,48 +502,39 @@ iframe{
 
 
 
-#parallax-2{
+/* ----------------------------------------------------------------- */
+
+
+#parallax{
     float: left;
-    padding-top: 7.5vh;
 
     div:nth-child(2){
       background-color: #f1f1f1;
       z-index: -10;
-
     }
-
-.copy-container{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  top: 0;
-  margin: auto;
-}
 
 
   div{
-    padding-top: 25vh;
+    padding-top: 15vh;
     padding-bottom: 15vh;
     position: relative;
-    height: 70vh;
-    max-height: 70vh;
-    overflow: visible;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: visible!important;
     span{
       z-index: 10;
       float: left;
+
     }
     h2{
       z-index: 10;
-      font-size: 50px;
-      line-height: 50px;
+      font-size: 100px;
+      line-height: 100px;
       position: absolute;
-      left: 0px;
-      width: 35vw;
-      padding: 25px;
-      width: auto;
-      top: 0;
+      left: 50px;
+      top: 10%;
     }
+
 
     img{
       z-index: -10;
@@ -556,15 +547,105 @@ iframe{
       margin: auto;
     }
     .vertical-p{
-      font-size: 12px;
       position: absolute;
-      padding-right: 20px;
-      bottom: -10%;
-      right: 0%;
+      right: 0;
+      transform: rotate(90deg);
+      right: -2%;
       letter-spacing: 3px;
+      top: 50%;
     }
   }
 }
+
+
+
+#parallax-2{
+    float: left;
+    height: 70vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    min-height: 0;
+    position: relative;
+
+
+
+    .copy-container{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f1f1f1;
+    width: 65%;
+    padding-left: 20%;
+    padding-right: 0%;
+    z-index: 0;
+    height: 300px;
+    .copy-container-parallax{
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 100%;
+
+    p{
+      position: absolute;
+      float: left;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 70%;
+      margin: auto;
+    }
+  }
+    }
+
+
+
+  div{
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: visible!important;
+    height: 70vh;
+
+
+    span{
+      z-index: 10;
+      float: left;
+
+    }
+    h2{
+      z-index: 10;
+      font-size: 50px;
+      line-height: 50px;
+      position: absolute;
+      left: 7.5vw;
+      top: 0;
+    }
+
+
+    img{
+      z-index: -10;
+      float: left;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .vertical-p{
+      position: absolute;
+      right: 0;
+      transform: rotate(90deg);
+      right: 12.5%;
+      letter-spacing: 3px;
+      top: 5%;
+    }
+  }
+}
+
 
 /* ----------------------------------------------------------------- */
 
@@ -657,6 +738,11 @@ iframe{
 }
 
 
+.body-container{
+  background-color: white;
+  float: left;
+  position: relative;
+}
 
 
 /* SNAP SCROLL
@@ -1109,7 +1195,6 @@ ul{
 
 #container-1{
   h1{
-
     position: absolute;
     bottom: 10vh;
     z-index: 1;
@@ -1132,7 +1217,6 @@ ul{
   padding-top: 15vh;
     padding-left: 0;
     padding-right: 0;
-
     .image-container{
       position: relative;
       margin-top: 7vh;
@@ -1231,6 +1315,7 @@ h2{
 
 
 #glance{
+  padding-top: 10vh;
   h2{
     font-family: macklin;
     text-align: center!important;
@@ -1268,6 +1353,7 @@ top: 0;
     margin: 0!important;
     padding-bottom: 0px!important;
     line-height: 0!important;
+    font-family: macklin!important;
   }
 }
 
@@ -2574,7 +2660,58 @@ margin-top: 15vh;
     float: left;
   margin-bottom: 10vh;
 }
+
+#investment-container{
+  section{
+    height: 100vh;
+    float: left;
+
+    padding-top: 15vh;
+    h2{
+      font-size: 200px;
+      float: left;
+      text-align: center;
+      line-height: 200px;
+      height: 285px;
+      span{
+        float: left;
+      }
+    }
+    p{
+      font-size: 20px;
+
+      float: left;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      padding-left: 20px;
+
+    }
+
+    .border-green{
+      border-bottom: 4px solid $green;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
 /* BEGINS 768PX MEDIA QUERY */
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 768px){
 
@@ -2585,6 +2722,7 @@ margin-top: 15vh;
     position: absolute;
     right: -50vw;
     margin: auto;
+
   }
 
 
@@ -2732,10 +2870,18 @@ padding-top: 7vh!important;
 #parallax-2{
     float: left;
 
+
     div:nth-child(2){
       background-color: #f1f1f1;
-      z-index: -10;
+      z-index: 0;
     }
+
+    p{
+    z-index: 10!important;
+    position: absolute;
+
+    bottom: 20%;
+  }
 
 
   div{
@@ -3454,7 +3600,7 @@ p{
     height: auto;
     width: 100vw;
 
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -4102,17 +4248,43 @@ h5{
     padding-top: 10vh;
     padding-bottom: 10vh;
     min-height: 0;
+    position: relative;
 
-div{
-.copy-container{
-    max-height: 300px!important;
-    p{
-      float: left;
-    top: 80px;
+
+
+    .copy-container{
     position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #f1f1f1;
+    width: 65%;
+    padding-left: 20%;
+    padding-right: 0%;
+    z-index: 0;
+    height: 300px;
+    .copy-container-parallax{
+      position: relative;
+      float: left;
+      height: 100%;
+      width: 100%;
+
+    p{
+      position: absolute;
+      float: left;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 70%;
+      margin: auto;
     }
-}
-}
+  }
+    }
+
+
 
   div{
     position: relative;
@@ -4130,8 +4302,8 @@ div{
       z-index: 10;
       backdrop-filter: none;
       position: absolute;
-      left: 50px;
-      top: 10%;
+      left: 5%;
+      top: 20%;
       font-size: 70px;
       line-height: 60px;
     }
