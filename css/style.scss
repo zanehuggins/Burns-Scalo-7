@@ -2537,8 +2537,19 @@ a:hover{
 
 /* END CAREERS */
 
-
-
+#featured-article{
+  padding-top: 12.5vh;
+  .copy-container{
+    float: left;
+  }
+  h3{
+    font-size: 50px!important;
+    font-style: normal!important;
+    font-weight: 900!important;
+    font-family: gotham!important;
+    line-height: 50px!important;
+  }
+}
 
 
 
@@ -3035,7 +3046,6 @@ h5{
 
 
 
-
 @media (min-width: 992px){
 
   .align-right{
@@ -3484,7 +3494,7 @@ header{
   padding-left: 1vw;
   padding-right: 1vw;
   float: left;
-  
+
   li{
   text-align: center;
 padding-top: 12.5px;

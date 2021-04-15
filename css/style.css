@@ -1728,6 +1728,17 @@ article {
 /*CLOSES #CAREERS-PAGE*/
 /* ----------------------------------------------------------------- */
 /* END CAREERS */
+#featured-article {
+  padding-top: 12.5vh; }
+  #featured-article .copy-container {
+    float: left; }
+  #featured-article h3 {
+    font-size: 50px !important;
+    font-style: normal !important;
+    font-weight: 900 !important;
+    font-family: gotham !important;
+    line-height: 50px !important; }
+
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
   .hero {
