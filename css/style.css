@@ -1729,7 +1729,8 @@ article {
 /* ----------------------------------------------------------------- */
 /* END CAREERS */
 #featured-article {
-  padding-top: 12.5vh; }
+  padding-top: 12.5vh;
+  padding-bottom: 12.5vh; }
   #featured-article .copy-container {
     float: left; }
   #featured-article h3 {
@@ -1738,6 +1739,17 @@ article {
     font-weight: 900 !important;
     font-family: gotham !important;
     line-height: 50px !important; }
+
+#media {
+  padding-top: 12.5vh; }
+  #media div {
+    float: left; }
+
+.margin-top-10 {
+  margin-top: 15vh; }
+
+.wttl {
+  margin-top: 10vh; }
 
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {

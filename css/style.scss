@@ -2539,6 +2539,7 @@ a:hover{
 
 #featured-article{
   padding-top: 12.5vh;
+  padding-bottom: 12.5vh;
   .copy-container{
     float: left;
   }
@@ -2552,9 +2553,21 @@ a:hover{
 }
 
 
+#media{
+  padding-top: 12.5vh;
+  div{
+    float: left;
+  }
+}
+
+.margin-top-10{
+margin-top: 15vh;
+}
 
 
-
+.wttl{
+  margin-top: 10vh;
+}
 /* BEGINS 768PX MEDIA QUERY */
 
 @media (min-width: 768px){
