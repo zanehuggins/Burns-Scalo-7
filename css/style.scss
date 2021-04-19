@@ -2668,31 +2668,43 @@ margin-top: 15vh;
   section{
     height: 100vh;
     float: left;
+    padding-top: 35vh;
 
-    padding-top: 15vh;
+    div{
+
+    }
+
     h2{
-      font-size: 200px;
-      float: left;
-      text-align: center;
-      line-height: 200px;
-      height: 285px;
+
       span{
         float: left;
+      }
+      .number-in{
+        font-size: 200px;
+        float: left;
+        text-align: right!important;
+      }
+      
+      .number-in-2{
+        font-size: 100px;
+        padding-top: 0;
+        margin-top: -30px;
+        float: left;
+        padding-bottom: 20px;
       }
     }
     p{
       font-size: 20px;
 
-      float: left;
-      text-align: center;
+      text-align: left;
       text-transform: uppercase;
       letter-spacing: 3px;
-      padding-left: 20px;
-
+      padding-top: 20px;
+      padding-left: 5px;
     }
 
     .border-green{
-      border-bottom: 4px solid $green;
+      border-bottom: 17.5px solid $green;
     }
   }
 }

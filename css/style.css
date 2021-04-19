@@ -1823,24 +1823,28 @@ article {
 #investment-container section {
   height: 100vh;
   float: left;
-  padding-top: 15vh; }
-  #investment-container section h2 {
+  padding-top: 35vh; }
+  #investment-container section h2 span {
+    float: left; }
+  #investment-container section h2 .number-in {
     font-size: 200px;
     float: left;
-    text-align: center;
-    line-height: 200px;
-    height: 285px; }
-    #investment-container section h2 span {
-      float: left; }
+    text-align: right !important; }
+  #investment-container section h2 .number-in-2 {
+    font-size: 100px;
+    padding-top: 0;
+    margin-top: -30px;
+    float: left;
+    padding-bottom: 20px; }
   #investment-container section p {
     font-size: 20px;
-    float: left;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 3px;
-    padding-left: 20px; }
+    padding-top: 20px;
+    padding-left: 5px; }
   #investment-container section .border-green {
-    border-bottom: 4px solid #C2D500; }
+    border-bottom: 17.5px solid #C2D500; }
 
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
