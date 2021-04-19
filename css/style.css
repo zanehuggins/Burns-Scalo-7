@@ -1839,12 +1839,12 @@ article {
 /*CLOSES #CAREERS-PAGE*/
 /* ----------------------------------------------------------------- */
 /* END CAREERS */
-#featured-article {
-  padding-top: 12.5vh;
+#featured-article, #featured-press {
+  padding-top: 5vh;
   padding-bottom: 12.5vh; }
-  #featured-article .copy-container {
+  #featured-article .copy-container, #featured-press .copy-container {
     float: left; }
-  #featured-article h3 {
+  #featured-article h3, #featured-press h3 {
     font-size: 50px !important;
     font-style: normal !important;
     font-weight: 900 !important;
