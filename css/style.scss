@@ -764,6 +764,70 @@ section {
 
 
 
+
+.no-support {
+  text-align: center;
+  padding: 5px;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ee6620;
+  color: #fff;
+  font-size: 16px;
+}
+
+@supports(scroll-snap-stop: always) {
+  .no-support {
+    display: none;
+  }
+}
+
+.example-wrapper {
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.snap-container {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  overflow: scroll;
+  position: relative;
+}
+
+.snap {
+
+  scroll-margin: 10px;
+  scroll-snap-align: start;
+  scroll-snap-stop: normal;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.y-mandatory {
+  scroll-snap-type: y mandatory;
+}
+
+.y-scroll .element {
+  margin-bottom: 10px;
+}
+
+.snap-stop-always {
+  scroll-snap-stop: always;
+}
+
+
+
 #page-404{
   padding-top: 25vh!important;
   a{
@@ -2684,7 +2748,7 @@ margin-top: 15vh;
         float: left;
         text-align: right!important;
       }
-      
+
       .number-in-2{
         font-size: 100px;
         padding-top: 0;
