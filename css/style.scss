@@ -2795,6 +2795,10 @@ margin-top: 15vh;
 
 @media (min-width: 768px){
 
+
+
+
+
 #container-1{
   h1{
     position: fixed;
@@ -2802,13 +2806,13 @@ margin-top: 15vh;
   }
 }
   .hero{
-    height: auto;
-    width: 100vw;
+    height: 100vh;
+    width: auto;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: -50vw;
+    left: -100vw;
+    right: 0;
     margin: auto;
   }
 
@@ -2955,8 +2959,8 @@ padding-top: 7vh!important;
     }
     .vertical-p{
       position: absolute;
-      right: 0;
-      top: 85%;
+      right: -125px;
+      top: 49%;
       letter-spacing: 3px;
     }
   }

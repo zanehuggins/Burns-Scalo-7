@@ -1900,13 +1900,13 @@ article {
     z-index: 0; }
 
   .hero {
-    height: auto;
-    width: 100vw;
+    height: 100vh;
+    width: auto;
     position: fixed;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: -50vw;
+    left: -100vw;
+    right: 0;
     margin: auto; }
 
   .hero-mid {
@@ -2008,8 +2008,8 @@ article {
         margin: auto; }
       #parallax div .vertical-p {
         position: absolute;
-        right: 0;
-        top: 85%;
+        right: -125px;
+        top: 49%;
         letter-spacing: 3px; }
 
   #parallax-2 {
