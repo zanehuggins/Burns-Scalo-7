@@ -326,53 +326,6 @@ iframe {
     bottom: 40%; }
 
 /* ----------------------------------------------------------------- */
-#parallax {
-  float: left; }
-  #parallax div:nth-child(2) {
-    background-color: #f1f1f1;
-    z-index: -10; }
-    #parallax div:nth-child(2) h2 {
-      background-color: rgba(244, 244, 244, 0.8); }
-  #parallax div {
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-    position: relative;
-    height: 50vh;
-    overflow-y: hidden;
-    overflow-x: hidden; }
-    #parallax div span {
-      z-index: 10;
-      float: left; }
-    #parallax div h2 {
-      z-index: 10;
-      font-size: 40px;
-      line-height: 40px;
-      position: absolute;
-      left: 10px;
-      background-color: rgba(255, 255, 255, 0.8);
-      width: 35vw;
-      padding: 25px;
-      width: auto;
-      top: 0;
-      backdrop-filter: blur(8px); }
-    #parallax div img {
-      z-index: -10;
-      float: left;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      margin: auto; }
-    #parallax div .vertical-p {
-      font-size: 14px;
-      position: absolute;
-      padding-right: 20px;
-      top: 80%;
-      right: 0%;
-      letter-spacing: 3px; }
-
-/* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
 #parallax {
   float: left; }
@@ -391,11 +344,11 @@ iframe {
       float: left; }
     #parallax div h2 {
       z-index: 10;
-      font-size: 100px;
-      line-height: 100px;
+      font-size: 75px;
+      line-height: 75px;
       position: absolute;
       left: 50px;
-      top: 10%; }
+      top: 15%; }
     #parallax div img {
       z-index: -10;
       float: left;
@@ -407,11 +360,9 @@ iframe {
       margin: auto; }
     #parallax div .vertical-p {
       position: absolute;
-      right: 0;
-      transform: rotate(90deg);
-      right: -2%;
+      right: 5%;
       letter-spacing: 3px;
-      top: 50%; }
+      top: 70%; }
 
 /* ----------------------------------------------------------------- */
 #featured-projects .small-headline {
