@@ -415,7 +415,7 @@ iframe {
 
 #parallax-2 {
   float: left;
-  height: 70vh;
+  height: 100vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
   min-height: 0;
@@ -428,11 +428,12 @@ iframe {
     bottom: 0;
     margin: auto;
     background-color: #f1f1f1;
-    width: 65%;
-    padding-left: 20%;
-    padding-right: 0%;
+    width: 80%;
+    padding-top: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
     z-index: 0;
-    height: 300px; }
+    height: 80%; }
     #parallax-2 .copy-container .copy-container-parallax {
       position: relative;
       float: left;
@@ -445,7 +446,7 @@ iframe {
         left: 0;
         right: 0;
         bottom: 0;
-        width: 70%;
+        width: 90%;
         margin: auto; }
   #parallax-2 div {
     position: relative;
@@ -474,10 +475,9 @@ iframe {
     #parallax-2 div .vertical-p {
       position: absolute;
       right: 0;
-      transform: rotate(90deg);
       right: 12.5%;
       letter-spacing: 3px;
-      top: 5%; }
+      top: 95%; }
 
 /* ----------------------------------------------------------------- */
 /* ----------------------------------------------------------------- */
@@ -2124,10 +2124,13 @@ article {
   /* ----------------------------------------------------------------- */
   #parallax-2 {
     float: left;
-    height: 70vh;
+    height: 100vh;
     padding-top: 10vh;
     padding-bottom: 0vh;
     min-height: 0; }
+    #parallax-2 .copy-container {
+      height: 50%;
+      padding-top: 20%; }
     #parallax-2 div {
       position: relative;
       overflow-y: hidden;
@@ -2142,10 +2145,10 @@ article {
         z-index: 10;
         backdrop-filter: none;
         position: absolute;
-        left: 0px;
+        left: 25px;
         top: 10%;
-        font-size: 50px;
-        line-height: 50px; }
+        font-size: 75px;
+        line-height: 75px; }
       #parallax-2 div img {
         z-index: -10;
         float: left;
@@ -2157,11 +2160,10 @@ article {
         margin: auto; }
       #parallax-2 div .vertical-p {
         position: absolute;
-        right: 0;
         transform: rotate(90deg);
-        right: -20%;
+        right: 15%;
         letter-spacing: 3px;
-        top: 50%; }
+        top: 25%; }
 
   /* ----------------------------------------------------------------- */ }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
@@ -2402,6 +2404,76 @@ article {
         right: -7%;
         letter-spacing: 3px;
         top: 50%; }
+
+  /* ----------------------------------------------------------------- */
+  #parallax-2 {
+    float: left;
+    height: 70vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    min-height: 0;
+    position: relative; }
+    #parallax-2 .copy-container {
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background-color: #f1f1f1;
+      width: 65%;
+      padding-left: 20%;
+      padding-right: 0%;
+      padding-top: 6%;
+      z-index: 0;
+      height: 300px;
+      bottom: 20%; }
+      #parallax-2 .copy-container .copy-container-parallax {
+        position: relative;
+        float: left;
+        height: 100%;
+        width: 100%;
+        padding-top: 10px; }
+        #parallax-2 .copy-container .copy-container-parallax p {
+          position: absolute;
+          float: left;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          width: 70%;
+          margin: auto; }
+    #parallax-2 div {
+      position: relative;
+      overflow-y: hidden;
+      overflow-x: visible !important;
+      height: 70vh; }
+      #parallax-2 div span {
+        z-index: 10;
+        float: left; }
+      #parallax-2 div h2 {
+        z-index: 10;
+        font-size: 50px;
+        line-height: 50px;
+        position: absolute;
+        left: 8.5vw;
+        top: 25%; }
+      #parallax-2 div img {
+        z-index: -10;
+        float: left;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      #parallax-2 div .vertical-p {
+        position: absolute;
+        right: 0;
+        transform: rotate(90deg);
+        right: 12.5%;
+        letter-spacing: 3px;
+        top: 5%; }
 
   /* ----------------------------------------------------------------- */ }
 /* !!CLOSES 1024PX @MEDIA QUERY!! */
@@ -2842,13 +2914,16 @@ article {
       width: 65%;
       padding-left: 20%;
       padding-right: 0%;
+      padding-top: 6%;
       z-index: 0;
-      height: 300px; }
+      height: 300px;
+      bottom: 20%; }
       #parallax-2 .copy-container .copy-container-parallax {
         position: relative;
         float: left;
         height: 100%;
-        width: 100%; }
+        width: 100%;
+        padding-top: 10px; }
         #parallax-2 .copy-container .copy-container-parallax p {
           position: absolute;
           float: left;
@@ -2862,18 +2937,17 @@ article {
       position: relative;
       overflow-y: hidden;
       overflow-x: visible !important;
-      height: 50vh; }
+      height: 70vh; }
       #parallax-2 div span {
         z-index: 10;
         float: left; }
       #parallax-2 div h2 {
         z-index: 10;
-        backdrop-filter: none;
+        font-size: 50px;
+        line-height: 50px;
         position: absolute;
-        left: 5%;
-        top: 20%;
-        font-size: 70px;
-        line-height: 60px; }
+        left: 8.5vw;
+        top: 25%; }
       #parallax-2 div img {
         z-index: -10;
         float: left;
@@ -2891,6 +2965,7 @@ article {
         letter-spacing: 3px;
         top: 5%; }
 
+  /* ----------------------------------------------------------------- */
   /* ----------------------------------------------------------------- */ }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {
