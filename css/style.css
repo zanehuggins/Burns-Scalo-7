@@ -104,7 +104,7 @@ object {
   font-size: 18px !important;
   letter-spacing: 2px;
   color: #333033;
-  padding-left: 5px; }
+  padding-left: 0px; }
 
 .italic {
   font-style: italic; }
@@ -1425,6 +1425,7 @@ footer {
 /*CLOSES #PORTFOLIO-PAGE*/
 /* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
 #press-page {
+  padding-top: 10vh !important;
   min-height: 0vh;
   float: left;
   padding-bottom: 10vh; }
@@ -2019,7 +2020,10 @@ article {
         bottom: 0;
         left: 0;
         right: 0;
-        margin: auto; }
+        margin: auto;
+        transition: .5s; }
+      #parallax div div:hover img {
+        transform: scale(1.1); }
       #parallax div .vertical-p {
         position: absolute;
         right: -125px;
@@ -2995,7 +2999,7 @@ article {
       width: 65%;
       padding-left: 20%;
       padding-right: 0%;
-      padding-top: 6%;
+      padding-top: 0%;
       z-index: 0;
       height: 300px;
       bottom: 20%; }
@@ -3003,8 +3007,7 @@ article {
         position: relative;
         float: left;
         height: 100%;
-        width: 100%;
-        padding-top: 10px; }
+        width: 100%; }
         #parallax-2 .copy-container .copy-container-parallax p {
           position: absolute;
           float: left;

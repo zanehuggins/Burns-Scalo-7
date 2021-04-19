@@ -141,7 +141,7 @@ p{
   font-size: 18px!important;
   letter-spacing: 2px;
   color: $black;
-  padding-left: 5px;
+  padding-left: 0px;
 }
 
 .italic{
@@ -2047,6 +2047,7 @@ a{
 
 /* OPENS PORTFOLIO-PAGE ----------------------------------------------------------------- */
 #press-page{
+  padding-top: 10vh!important;
   min-height: 0vh;
 .filters{
   padding-left: 0;
@@ -2961,7 +2962,16 @@ padding-top: 7vh!important;
       left: 0;
       right: 0;
       margin: auto;
+      transition: .5s;
     }
+
+  div:hover{
+    img{
+      transform: scale(1.1);
+}
+    }
+
+    
     .vertical-p{
       position: absolute;
       right: -125px;
@@ -4466,7 +4476,7 @@ h5{
     width: 65%;
     padding-left: 20%;
     padding-right: 0%;
-    padding-top: 6%;
+    padding-top: 0%;
     z-index: 0;
     height: 300px;
       bottom: 20%;
@@ -4476,7 +4486,7 @@ h5{
       float: left;
       height: 100%;
       width: 100%;
-      padding-top: 10px;
+
 
     p{
       position: absolute;
