@@ -2258,6 +2258,9 @@ article {
     font-size: 60px;
     line-height: 50px; }
 
+  .h2-small {
+    font-size: 35px !important; }
+
   /* END TYPE */
   #push-mobile img {
     width: 100vw; }

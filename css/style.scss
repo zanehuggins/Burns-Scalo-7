@@ -415,6 +415,8 @@ iframe{
     margin-top: 30px;
     z-index: 10;
   }
+
+
   .quote-container{
       background-color: #f1f1f1;
       padding: 125px;
@@ -2317,7 +2319,6 @@ h5{
     float: left;
     color: white;
     padding: 0;
-
   }
 }
 
@@ -3360,6 +3361,10 @@ font-size: 16px;
 h1{
   font-size: 60px;
   line-height: 50px;
+}
+
+.h2-small{
+  font-size: 35px!important;
 }
 
 /* END TYPE */
