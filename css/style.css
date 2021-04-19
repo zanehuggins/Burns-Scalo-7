@@ -542,7 +542,8 @@ iframe {
 .body-container {
   background-color: white;
   float: left;
-  position: relative; }
+  position: relative;
+  z-index: 10; }
 
 /* SNAP SCROLL
 
@@ -1894,12 +1895,28 @@ article {
 
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
+  #container-1 h1 {
+    position: fixed;
+    z-index: 0; }
+
   .hero {
-    width: auto;
-    height: 100vh;
-    width: auto;
-    position: absolute;
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
     right: -50vw;
+    margin: auto; }
+
+  .hero-mid {
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto; }
 
   h2 {
