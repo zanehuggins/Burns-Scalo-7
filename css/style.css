@@ -1864,7 +1864,6 @@ article {
     list-style: none; }
     #investment-container ul li {
       float: left;
-      height: 20vh;
       padding-right: 5%; }
       #investment-container ul li div {
         float: right;
@@ -1875,6 +1874,8 @@ article {
         padding: 0;
         width: 30%;
         text-align: right; }
+      #investment-container ul li .dollar {
+        float: left; }
       #investment-container ul li .bold {
         font-family: Gotham;
         font-weight: 900;

@@ -2739,7 +2739,6 @@ ul{
 
   li{
     float: left;
-    height: 20vh;
     padding-right: 5%;
     div{
       float: right;
@@ -2751,6 +2750,12 @@ ul{
       padding: 0;
       width: 30%;
       text-align: right;
+    }
+    .count-up-size{
+
+    }
+    .dollar{
+      float: left;
     }
     .bold{
       font-family: Gotham;
