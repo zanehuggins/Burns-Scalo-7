@@ -21,10 +21,13 @@
 <meta name="theme-color" content="#ffffff">
 <script src="js/count.js"></script>
 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
 
     <title>Burns Scalo Real Estate</title>
   </head>
-  <body onload="runAnimations()">
+  <body>
 
     <header class="col-12 float-left">
 
@@ -82,7 +85,7 @@
 
       <li class="col-12 col-lg-5 offset-lg-0">
 
-        <span class="dollar countup bold">300</span>
+        <span class="dollar counter bold">300</span>
 
       <div><span class="bold-small border-green col-12">MILLION</span><br><span class="description">In New Investments</span></div>
 
@@ -93,7 +96,7 @@
         </div>
       </li>
 
-      <li class="col-12 col-lg-5 offset-lg-1"><span class="count-up-size countup bold">5</span><div><span class="bold-small border-turquoise">MILLION</span><br><span class="description">Total Square Feet of Assets</span></div>
+      <li class="col-12 col-lg-5 offset-lg-1"><span class="count-up-size counter bold">5</span><div><span class="bold-small border-turquoise">MILLION</span><br><span class="description">Total Square Feet of Assets</span></div>
         <div class="link-container col-10 col-md-8 col-xl-10 offset-1 offset-md-2 offset-lg-1">
           <a href="portfolio.html" class="link-outline col-12"><p class="col-10">SCHEDULE A TOUR</p>
           <img src="assets/arrow.svg" alt="#" class="col-2">
@@ -101,7 +104,7 @@
         </div>
       </li>
 
-      <li class="col-12 col-lg-5 offset-lg-0"><span class="count-up-size countup bold">4</span><div><span class="bold-small border-orange">PROJECTS</span><br><span class="description">In Current Development</span></div>
+      <li class="col-12 col-lg-5 offset-lg-0"><span class="count-up-size counter bold">4</span><div><span class="bold-small border-orange">PROJECTS</span><br><span class="description">In Current Development</span></div>
 
         <div class="link-container col-10 col-md-8 col-xl-10 offset-1 offset-md-2 offset-lg-1">
           <a href="insights.html" class="link-outline col-12"><p class="col-10">BUILD WITH US</p>
@@ -110,7 +113,7 @@
         </div>
       </li>
 
-      <li class="col-12 col-lg-5 offset-lg-1"><span class="count-up-size countup bold">21</span><div><span class="bold-small border-green">INVESTORS</span><br><span class="description">Driving Market Growth</span></div>
+      <li class="col-12 col-lg-5 offset-lg-1"><span class="count-up-size counter bold">21</span><div><span class="bold-small border-green">INVESTORS</span><br><span class="description">Driving Market Growth</span></div>
         <div class="link-container col-10 col-md-8 col-xl-10 offset-1 offset-md-2 offset-lg-1">
           <a href="insights.html" class="link-outline col-12"><p class="col-10">INVEST WITH US</p>
           <img src="assets/arrow.svg" alt="#" class="col-2">
@@ -118,7 +121,7 @@
         </div>
       </li>
 
-      <li class="col-12 col-lg-5 offset-lg-0"><span class="count-up-size countup bold">59</span><div><span class="bold-small border-turquoise">PEOPLE</span><br><span class="description">Delivering Luxury Experience</span></div>
+      <li class="col-12 col-lg-5 offset-lg-0"><span class="count-up-size counter bold">59</span><div><span class="bold-small border-turquoise">PEOPLE</span><br><span class="description">Delivering Luxury Experience</span></div>
         <div class="link-container col-10 col-md-8 col-xl-10 offset-1 offset-md-2 offset-lg-1">
           <a href="insights.html" class="link-outline col-12"><p class="col-10">MEET YOUR TEAM</p>
           <img src="assets/arrow.svg" alt="#" class="col-2">
@@ -134,7 +137,7 @@
 
 
 
-          <section class="col-10 col-xl-10 offset-1 d-none" id="glance">
+          <section class="col-10 col-xl-10 offset-1 d-none counters" id="glance">
 
           <div class="number-container number-reveal-1 col-12 col-lg-4">
           <h2>5
@@ -248,10 +251,30 @@ We’ve revolutionized an industry with radical market-driving business ideas an
 
  </div>
 
+
+
+
+
+ <!-- INVESTMENT ANIMATIONS -->
+
+
+
+
+
+
+
  <script src="jquery-3.2.1.min.js"></script>
  <!--<script src="scrollreveal.min.js"></script>-->
  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
  <script type="text/javascript" src="script.js"></script>
+
+
+<script src="js/jquery.countup.min.js"></script>
+
+<script>
+     $('.counter').countUp();
+</script>
+
 
 
 <script>
