@@ -4373,6 +4373,7 @@ h5{
     }
 
     a{
+      text-shadow: 0px 0px 10px #000000;
       position: absolute;
       z-index: 20;
       color: white;
@@ -4380,7 +4381,7 @@ h5{
       bottom: 20%;
       right: 17.5%;
       float: left;
-      width: 250px;
+
       span{
         float: left;
         width: auto;

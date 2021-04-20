@@ -2894,14 +2894,14 @@ article {
     #parallax div:nth-child(2) {
       background-color: #f1f1f1; }
     #parallax a {
+      text-shadow: 0px 0px 10px #000000;
       position: absolute;
       z-index: 20;
       color: white;
       text-decoration: none;
       bottom: 20%;
       right: 17.5%;
-      float: left;
-      width: 250px; }
+      float: left; }
       #parallax a span {
         float: left;
         width: auto; }
