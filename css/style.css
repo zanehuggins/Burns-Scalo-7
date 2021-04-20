@@ -2332,7 +2332,7 @@ article {
     font-size: 35px !important; }
 
   .text-shadow {
-    text-shadow: 0px 0px 10px gray; }
+    text-shadow: 0px 0px 10px rgba(51, 48, 51, 0.5); }
 
   /* END TYPE */
   #push-mobile img {
