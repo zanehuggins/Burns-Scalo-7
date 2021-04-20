@@ -1859,7 +1859,8 @@ article {
 #investment-container {
   padding-top: 20vh; }
   #investment-container ul {
-    list-style: none; }
+    list-style: none;
+    padding-right: 0; }
     #investment-container ul li {
       float: left;
       margin-bottom: 50px; }
@@ -1931,6 +1932,57 @@ article {
     bottom: 10%;
     letter-spacing: 3px;
     margin-left: 8.5vw; }
+
+/* INVESTMENT CONTAINER ----------------------------------------------------------------- */
+#investment-container {
+  padding-top: 20vh; }
+  #investment-container ul {
+    list-style: none;
+    padding-right: 8.5vw; }
+    #investment-container ul li {
+      float: left;
+      margin-bottom: 50px; }
+      #investment-container ul li div {
+        float: right;
+        width: 100%; }
+      #investment-container ul li .counter {
+        height: 100%;
+        float: left;
+        padding: 0;
+        text-align: left;
+        width: 100%; }
+      #investment-container ul li .count-up-size {
+        float: left; }
+      #investment-container ul li .dollar {
+        float: left; }
+      #investment-container ul li .dollar::before {
+        content: "$"; }
+      #investment-container ul li .bold {
+        font-family: Gotham;
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 75px;
+        float: left;
+        text-align: left; }
+      #investment-container ul li .bold-small {
+        font-family: Gotham;
+        font-weight: 900;
+        font-size: 55px;
+        margin: 0;
+        padding-top: 0px; }
+      #investment-container ul li .description {
+        float: left;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-family: gotham; }
+  #investment-container .border-green {
+    border-bottom: 7px solid #C2D500; }
+  #investment-container .border-orange {
+    border-bottom: 7px solid #F26524; }
+  #investment-container .border-turquoise {
+    border-bottom: 7px solid #00AC98; }
 
 /* BEGINS 768PX MEDIA QUERY */
 @media (min-width: 768px) {
@@ -2248,7 +2300,57 @@ article {
 
   /* CLOSES #PROMOTION */
   /* ENDS PROMOTIONS */
-  /* ----------------------------------------------------------------- */ }
+  /* ----------------------------------------------------------------- */
+  /* INVESTMENT CONTAINER ----------------------------------------------------------------- */
+  #investment-container {
+    padding-top: 20vh; }
+    #investment-container ul {
+      list-style: none;
+      padding-right: 0; }
+      #investment-container ul li {
+        float: left;
+        margin-bottom: 50px; }
+        #investment-container ul li div {
+          float: right;
+          width: 60%; }
+        #investment-container ul li .counter {
+          height: 100%;
+          float: left;
+          padding: 0;
+          text-align: left;
+          width: 40%; }
+        #investment-container ul li .count-up-size {
+          float: left; }
+        #investment-container ul li .dollar {
+          float: left; }
+        #investment-container ul li .dollar::before {
+          content: "$"; }
+        #investment-container ul li .bold {
+          font-family: Gotham;
+          font-weight: 900;
+          font-size: 75px;
+          line-height: 75px;
+          float: left;
+          text-align: center; }
+        #investment-container ul li .bold-small {
+          font-family: Gotham;
+          font-weight: 900;
+          font-size: 55px;
+          margin: 0;
+          padding-top: 0px; }
+        #investment-container ul li .description {
+          float: left;
+          margin: 0;
+          padding: 0;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          font-family: gotham; }
+    #investment-container .border-green {
+      border-bottom: 7px solid #C2D500; }
+    #investment-container .border-orange {
+      border-bottom: 7px solid #F26524; }
+    #investment-container .border-turquoise {
+      border-bottom: 7px solid #00AC98; } }
 /* !!CLOSES 768PX @MEDIA QUERY!! */
 /* ----------------------------------------------------------------- */
 @media (min-width: 992px) {
@@ -2985,6 +3087,57 @@ article {
       right: -5%; }
 
   /* ----------------------------------------------------------------- */
+  /* INVESTMENT CONTAINER ----------------------------------------------------------------- */
+  #investment-container {
+    padding-top: 20vh; }
+    #investment-container ul {
+      list-style: none;
+      padding-right: 0; }
+      #investment-container ul li {
+        float: left;
+        margin-bottom: 50px; }
+        #investment-container ul li div {
+          float: right;
+          width: 60%; }
+        #investment-container ul li .counter {
+          height: 100%;
+          float: left;
+          padding: 0;
+          text-align: left;
+          width: 40%; }
+        #investment-container ul li .count-up-size {
+          float: left; }
+        #investment-container ul li .dollar {
+          float: left; }
+        #investment-container ul li .dollar::before {
+          content: "$"; }
+        #investment-container ul li .bold {
+          font-family: Gotham;
+          font-weight: 900;
+          font-size: 75px;
+          line-height: 75px;
+          float: left;
+          text-align: center; }
+        #investment-container ul li .bold-small {
+          font-family: Gotham;
+          font-weight: 900;
+          font-size: 55px;
+          margin: 0;
+          padding-top: 0px; }
+        #investment-container ul li .description {
+          float: left;
+          margin: 0;
+          padding: 0;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          font-family: gotham; }
+    #investment-container .border-green {
+      border-bottom: 7px solid #C2D500; }
+    #investment-container .border-orange {
+      border-bottom: 7px solid #F26524; }
+    #investment-container .border-turquoise {
+      border-bottom: 7px solid #00AC98; }
+
   /* MODAL ----------------------------------------------------------------- */ }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {

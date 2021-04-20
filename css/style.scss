@@ -2735,6 +2735,7 @@ margin-top: 15vh;
 
 ul{
   list-style: none;
+  padding-right: 0;
 
   li{
     float: left;
@@ -2838,18 +2839,81 @@ h2{
 
 }
 
+/* INVESTMENT CONTAINER ----------------------------------------------------------------- */
+
+#investment-container{
+  padding-top: 20vh;
+
+ul{
+  list-style: none;
+  padding-right: 8.5vw;
+
+  li{
+    float: left;
+    margin-bottom: 50px;
+    div{
+      float: right;
+      width: 100%;
+    }
+    .counter{
+      height: 100%;
+      float: left;
+      padding: 0;
+      text-align: left;
+      width: 100%;
+    }
+    .count-up-size{
+float: left;
+    }
+    .dollar{
+      float: left;
+    }
+
+    .dollar::before {
+  content: "$";
+}
+
+    .bold{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 75px;
+      line-height: 75px;
+      float: left;
+      text-align: left;
+    }
+    .bold-small{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 55px;
+      margin: 0;
+      padding-top: 0px;
+    }
+    .description{
+      float: left;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-family: gotham;
+    }
+  }
+}
+.border-green{
+  border-bottom: 7px solid $green;
+}
+.border-orange{
+  border-bottom: 7px solid $orange;
+}
+.border-turquoise{
+  border-bottom: 7px solid $turquoise;
+}
+}
+
+
 
 
 
 /* BEGINS 768PX MEDIA QUERY */
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 768px){
@@ -3345,7 +3409,75 @@ h5{
 
 
 
+/* INVESTMENT CONTAINER ----------------------------------------------------------------- */
 
+#investment-container{
+  padding-top: 20vh;
+
+ul{
+  list-style: none;
+  padding-right: 0;
+
+  li{
+    float: left;
+    margin-bottom: 50px;
+    div{
+      float: right;
+      width: 60%;
+    }
+    .counter{
+      height: 100%;
+      float: left;
+      padding: 0;
+      text-align: left;
+      width: 40%;
+    }
+    .count-up-size{
+float: left;
+    }
+    .dollar{
+      float: left;
+    }
+
+    .dollar::before {
+  content: "$";
+}
+
+    .bold{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 75px;
+      line-height: 75px;
+      float: left;
+      text-align: center;
+    }
+    .bold-small{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 55px;
+      margin: 0;
+      padding-top: 0px;
+    }
+    .description{
+      float: left;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-family: gotham;
+    }
+  }
+}
+.border-green{
+  border-bottom: 7px solid $green;
+}
+.border-orange{
+  border-bottom: 7px solid $orange;
+}
+.border-turquoise{
+  border-bottom: 7px solid $turquoise;
+}
+}
 
 
 
@@ -3406,6 +3538,11 @@ h5{
       margin-top: 15px;
     }
   }
+
+
+
+
+
 
 
 
@@ -4498,7 +4635,75 @@ h2{
 /* ----------------------------------------------------------------- */
 
 
+/* INVESTMENT CONTAINER ----------------------------------------------------------------- */
 
+#investment-container{
+  padding-top: 20vh;
+
+ul{
+  list-style: none;
+  padding-right: 0;
+
+  li{
+    float: left;
+    margin-bottom: 50px;
+    div{
+      float: right;
+      width: 60%;
+    }
+    .counter{
+      height: 100%;
+      float: left;
+      padding: 0;
+      text-align: left;
+      width: 40%;
+    }
+    .count-up-size{
+float: left;
+    }
+    .dollar{
+      float: left;
+    }
+
+    .dollar::before {
+  content: "$";
+}
+
+    .bold{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 75px;
+      line-height: 75px;
+      float: left;
+      text-align: center;
+    }
+    .bold-small{
+      font-family: Gotham;
+      font-weight: 900;
+      font-size: 55px;
+      margin: 0;
+      padding-top: 0px;
+    }
+    .description{
+      float: left;
+      margin: 0;
+      padding: 0;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-family: gotham;
+    }
+  }
+}
+.border-green{
+  border-bottom: 7px solid $green;
+}
+.border-orange{
+  border-bottom: 7px solid $orange;
+}
+.border-turquoise{
+  border-bottom: 7px solid $turquoise;
+}
+}
 /* MODAL ----------------------------------------------------------------- */
 
 
