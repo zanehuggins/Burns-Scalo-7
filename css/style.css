@@ -32,15 +32,49 @@ object {
   height: 100vh;
   width: 100vw; }
 
-.modal-body h2 {
-  float: left !important;
-  margin-bottom: 15px; }
-.modal-body h6 {
+.modal-dialog .modal-copy {
+  float: left;
+  padding-left: 25px; }
+  .modal-dialog .modal-copy .job-title {
+    font-size: 30px;
+    font-family: macklin;
+    font-style: italic;
+    float: left;
+    padding-top: 5px; }
+.modal-dialog ul {
+  list-style: none;
+  padding: 15px;
+  margin-top: 10px;
+  float: left;
+  background-color: #f1f1f1; }
+  .modal-dialog ul li {
+    float: left;
+    color: #333033;
+    padding-right: 20px; }
+  .modal-dialog ul li:nth-child(2), .modal-dialog ul li:nth-child(3) {
+    padding-left: 20px;
+    border-left: 1px solid gray; }
+.modal-dialog p {
+  float: left;
+  margin-top: 10px;
+  font-family: gotham; }
+.modal-dialog img {
+  float: left; }
+.modal-dialog .modal-header {
+  outline: none;
+  border: none; }
+.modal-dialog .modal-footer {
+  outline: none;
+  border: none; }
+.modal-dialog h2 {
+  float: left !important; }
+.modal-dialog h6 {
   margin-top: 20px !important;
   float: left;
   padding-top: 25px; }
-.modal-body a {
-  color: #F26524; }
+.modal-dialog a {
+  color: #333033;
+  text-decoration: none; }
 
 .modal-content {
   border-radius: 0 !important; }
@@ -1844,8 +1878,8 @@ article {
       #investment-container ul li .bold {
         font-family: Gotham;
         font-weight: 900;
-        font-size: 110px;
-        line-height: 110px;
+        font-size: 75px;
+        line-height: 75px;
         float: left;
         text-align: center; }
       #investment-container ul li .bold-small {
@@ -2939,7 +2973,7 @@ article {
       right: -5%; }
 
   /* ----------------------------------------------------------------- */
-  /* ----------------------------------------------------------------- */ }
+  /* MODAL ----------------------------------------------------------------- */ }
 /* CLOSES 1200PX @MEDIA QUERY */
 @media (min-width: 1500px) {
   #promotion .form-container {
