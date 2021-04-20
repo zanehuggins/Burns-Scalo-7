@@ -1866,7 +1866,7 @@ article {
       #investment-container ul li div {
         float: right;
         width: 60%; }
-      #investment-container ul li .countup {
+      #investment-container ul li .counter {
         height: 100%;
         float: left;
         padding: 0;
@@ -1896,7 +1896,8 @@ article {
         margin: 0;
         padding: 0;
         letter-spacing: 3px;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-family: gotham; }
   #investment-container .border-green {
     border-bottom: 7px solid #C2D500; }
   #investment-container .border-orange {
