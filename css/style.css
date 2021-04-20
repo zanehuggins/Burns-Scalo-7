@@ -1897,6 +1897,10 @@ article {
         text-transform: uppercase; }
   #investment-container .border-green {
     border-bottom: 7px solid #C2D500; }
+  #investment-container .border-orange {
+    border-bottom: 7px solid #F26524; }
+  #investment-container .border-turquoise {
+    border-bottom: 7px solid #00AC98; }
 
 #parallax-2 {
   height: 100vh;
