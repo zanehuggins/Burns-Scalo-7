@@ -1944,7 +1944,11 @@ article {
         line-height: 75px;
         position: absolute;
         left: 50px;
-        top: 10%; }
+        top: 10%;
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.5); }
       #parallax div img {
         z-index: -10;
         float: left;
