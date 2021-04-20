@@ -451,7 +451,77 @@ iframe{
 
     div:nth-child(2){
       background-color: #f1f1f1;
-      z-index: -10;
+      z-index: 0;
+    }
+
+    .black-text{
+      color: $black;
+    }
+
+    div:nth-child(2){
+      background-color: #f1f1f1;
+    }
+
+    a{
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 10%;
+      right: 10%;
+      float: left;
+      width: 250px;
+      span{
+        float: left;
+        width: auto;
+      }
+      img{
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative!important;
+        margin-left: 20px!important;
+      }
+    }
+
+    a:hover{
+      img{
+        margin-left: 40px!important;
+      }
+    }.black-text{
+      color: $black;
+    }
+
+    div:nth-child(2){
+      background-color: #f1f1f1;
+    }
+
+    a{
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 10%;
+      right: 10%;
+      float: left;
+      width: 250px;
+      span{
+        float: left;
+        width: auto;
+      }
+      img{
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative!important;
+        margin-left: 20px!important;
+      }
+    }
+
+    a:hover{
+      img{
+        margin-left: 40px!important;
+      }
     }
 
 
@@ -2844,9 +2914,40 @@ padding-top: 7vh!important;
 #parallax{
     float: left;
 
+    .black-text{
+      color: $black;
+    }
+
     div:nth-child(2){
       background-color: #f1f1f1;
-      z-index: -10;
+    }
+
+    a{
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 10%;
+      right: 10%;
+      float: left;
+      width: 250px;
+      span{
+        float: left;
+        width: auto;
+      }
+      img{
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative!important;
+        margin-left: 20px!important;
+      }
+    }
+
+    a:hover{
+      img{
+        margin-left: 40px!important;
+      }
     }
 
 
@@ -2873,8 +2974,12 @@ padding-top: 7vh!important;
       -webkit-backdrop-filter: blur(8px);
       padding: 50px;
       background-color: rgba(255, 255, 255, .5);
-
     }
+
+    .gray-background{
+      background-color: rgba(241, 241, 241, .5);
+    }
+
     img{
       z-index: -10;
       float: left;
@@ -2899,6 +3004,7 @@ padding-top: 7vh!important;
       right: -125px;
       top: 49%;
       letter-spacing: 3px;
+      transform: rotate(90deg);
     }
   }
 }
@@ -2920,6 +3026,8 @@ padding-top: 7vh!important;
   max-height: 50vh;
   float: left;
   position: relative;
+
+
 
 h2{
   position: absolute;
@@ -3452,9 +3560,42 @@ p{
 #parallax{
     float: left;
 
+
+
+    .black-text{
+      color: $black;
+    }
+
     div:nth-child(2){
       background-color: #f1f1f1;
-      z-index: -10;
+    }
+
+    a{
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 20%;
+      right: 17.5%;
+      float: left;
+      width: 250px;
+      span{
+        float: left;
+        width: auto;
+      }
+      img{
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative!important;
+        margin-left: 20px!important;
+      }
+    }
+
+    a:hover{
+      img{
+        margin-left: 40px!important;
+      }
     }
 
 
@@ -4156,9 +4297,47 @@ h5{
 #parallax{
     float: left;
 
+
+
+
+    .black-text{
+      color: $black;
+    }
+
     div:nth-child(2){
       background-color: #f1f1f1;
-      z-index: -10;
+    }
+
+    a{
+      position: absolute;
+      z-index: 20;
+      color: white;
+      text-decoration: none;
+      bottom: 20%;
+      right: 17.5%;
+      float: left;
+      width: 250px;
+      span{
+        float: left;
+        width: auto;
+      }
+      img{
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative!important;
+        margin-left: 20px!important;
+      }
+    }
+
+    a:hover{
+      img{
+        margin-left: 40px!important;
+      }
+    }
+    div:nth-child(2){
+      background-color: #f1f1f1;
+;
     }
 
 

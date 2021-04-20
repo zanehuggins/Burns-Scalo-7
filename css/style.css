@@ -331,7 +331,55 @@ iframe {
   float: left; }
   #parallax div:nth-child(2) {
     background-color: #f1f1f1;
-    z-index: -10; }
+    z-index: 0; }
+  #parallax .black-text {
+    color: #333033; }
+  #parallax div:nth-child(2) {
+    background-color: #f1f1f1; }
+  #parallax a {
+    position: absolute;
+    z-index: 20;
+    color: black;
+    text-decoration: none;
+    bottom: 10%;
+    right: 10%;
+    float: left;
+    width: 250px; }
+    #parallax a span {
+      float: left;
+      width: auto; }
+    #parallax a img {
+      width: 12px;
+      height: auto;
+      float: left;
+      position: relative !important;
+      margin-left: 20px !important; }
+  #parallax a:hover img {
+    margin-left: 40px !important; }
+  #parallax .black-text {
+    color: #333033; }
+  #parallax div:nth-child(2) {
+    background-color: #f1f1f1; }
+  #parallax a {
+    position: absolute;
+    z-index: 20;
+    color: black;
+    text-decoration: none;
+    bottom: 10%;
+    right: 10%;
+    float: left;
+    width: 250px; }
+    #parallax a span {
+      float: left;
+      width: auto; }
+    #parallax a img {
+      width: 12px;
+      height: auto;
+      float: left;
+      position: relative !important;
+      margin-left: 20px !important; }
+  #parallax a:hover img {
+    margin-left: 40px !important; }
   #parallax div {
     padding-top: 15vh;
     padding-bottom: 15vh;
@@ -1925,9 +1973,30 @@ article {
   /* ----------------------------------------------------------------- */
   #parallax {
     float: left; }
+    #parallax .black-text {
+      color: #333033; }
     #parallax div:nth-child(2) {
-      background-color: #f1f1f1;
-      z-index: -10; }
+      background-color: #f1f1f1; }
+    #parallax a {
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 10%;
+      right: 10%;
+      float: left;
+      width: 250px; }
+      #parallax a span {
+        float: left;
+        width: auto; }
+      #parallax a img {
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative !important;
+        margin-left: 20px !important; }
+    #parallax a:hover img {
+      margin-left: 40px !important; }
     #parallax div {
       padding-top: 15vh;
       padding-bottom: 15vh;
@@ -1949,6 +2018,8 @@ article {
         -webkit-backdrop-filter: blur(8px);
         padding: 50px;
         background-color: rgba(255, 255, 255, 0.5); }
+      #parallax div .gray-background {
+        background-color: rgba(241, 241, 241, 0.5); }
       #parallax div img {
         z-index: -10;
         float: left;
@@ -1965,7 +2036,8 @@ article {
         position: absolute;
         right: -125px;
         top: 49%;
-        letter-spacing: 3px; }
+        letter-spacing: 3px;
+        transform: rotate(90deg); }
 
   /* ----------------------------------------------------------------- */
   #parallax-2 {
@@ -2301,9 +2373,30 @@ article {
   /* ----------------------------------------------------------------- */
   #parallax {
     float: left; }
+    #parallax .black-text {
+      color: #333033; }
     #parallax div:nth-child(2) {
-      background-color: #f1f1f1;
-      z-index: -10; }
+      background-color: #f1f1f1; }
+    #parallax a {
+      position: absolute;
+      z-index: 20;
+      color: black;
+      text-decoration: none;
+      bottom: 20%;
+      right: 17.5%;
+      float: left;
+      width: 250px; }
+      #parallax a span {
+        float: left;
+        width: auto; }
+      #parallax a img {
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative !important;
+        margin-left: 20px !important; }
+    #parallax a:hover img {
+      margin-left: 40px !important; }
     #parallax div {
       padding-top: 15vh;
       padding-bottom: 15vh;
@@ -2753,9 +2846,32 @@ article {
   /* ----------------------------------------------------------------- */
   #parallax {
     float: left; }
+    #parallax .black-text {
+      color: #333033; }
     #parallax div:nth-child(2) {
-      background-color: #f1f1f1;
-      z-index: -10; }
+      background-color: #f1f1f1; }
+    #parallax a {
+      position: absolute;
+      z-index: 20;
+      color: white;
+      text-decoration: none;
+      bottom: 20%;
+      right: 17.5%;
+      float: left;
+      width: 250px; }
+      #parallax a span {
+        float: left;
+        width: auto; }
+      #parallax a img {
+        width: 12px;
+        height: auto;
+        float: left;
+        position: relative !important;
+        margin-left: 20px !important; }
+    #parallax a:hover img {
+      margin-left: 40px !important; }
+    #parallax div:nth-child(2) {
+      background-color: #f1f1f1; }
     #parallax div {
       padding-top: 15vh;
       padding-bottom: 15vh;
