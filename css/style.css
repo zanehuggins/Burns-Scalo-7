@@ -1867,13 +1867,13 @@ article {
       padding-right: 5%; }
       #investment-container ul li div {
         float: right;
-        width: 70%; }
+        width: 60%; }
       #investment-container ul li .countup {
         height: 100%;
         float: left;
-        padding: 0;
-        width: 30%;
-        text-align: right; }
+        padding: 0; }
+      #investment-container ul li .count-up-size {
+        float: left; }
       #investment-container ul li .dollar {
         float: left; }
       #investment-container ul li .bold {
