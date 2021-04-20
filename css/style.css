@@ -1857,21 +1857,21 @@ article {
   margin-bottom: 10vh; }
 
 #investment-container {
-  padding-top: 20vh;
-  height: 100vh;
-  overflow: scroll; }
+  padding-top: 20vh; }
   #investment-container ul {
     list-style: none; }
     #investment-container ul li {
       float: left;
-      padding-right: 5%; }
+      margin-bottom: 50px; }
       #investment-container ul li div {
         float: right;
         width: 60%; }
       #investment-container ul li .countup {
         height: 100%;
         float: left;
-        padding: 0; }
+        padding: 0;
+        text-align: right;
+        width: 40%; }
       #investment-container ul li .count-up-size {
         float: left; }
       #investment-container ul li .dollar {
@@ -1893,7 +1893,8 @@ article {
         float: left;
         margin: 0;
         padding: 0;
-        letter-spacing: 3px; }
+        letter-spacing: 3px;
+        text-transform: uppercase; }
   #investment-container .border-green {
     border-bottom: 7px solid #C2D500; }
 
