@@ -169,11 +169,39 @@ h1 {
     animation-name: delay-opacity;
     animation-duration: 7s; }
   h1 .delay-4 {
-    animation-name: delay-opacity;
-    animation-duration: 7.5s; }
+    animation-name: delay-opacity-home;
+    animation-duration: 43s;
+    animation-iteration-count: infinite; }
   h1 .delay-5 {
-    animation-name: delay-opacity;
-    animation-duration: 8s; }
+    animation-name: delay-opacity-home-2;
+    animation-duration: 43s;
+    animation-iteration-count: infinite; }
+@keyframes delay-opacity-home {
+  0% {
+    opacity: 0;
+    transform: translateY(-50vh); }
+  10% {
+    opacity: 0; }
+  13% {
+    opacity: 1;
+    transform: translateY(-50vh) !important; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+@keyframes delay-opacity-home-2 {
+  0% {
+    opacity: 0;
+    transform: translateY(-50vh); }
+  11% {
+    opacity: 0; }
+  14% {
+    opacity: 1;
+    transform: translateY(-50vh) !important; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 @keyframes delay-opacity {
   0% {
     opacity: 0;
