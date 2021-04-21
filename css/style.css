@@ -161,10 +161,10 @@ h1 {
     border-bottom: 10px solid #F26524; }
   h1 .delay-1 {
     animation-name: delay-opacity;
-    animation-duration: 6s; }
+    animation-duration: 3s; }
   h1 .delay-2 {
     animation-name: delay-opacity;
-    animation-duration: 6.5s; }
+    animation-duration: 3.5s; }
   h1 .delay-3 {
     animation-name: delay-opacity;
     animation-duration: 7s; }
