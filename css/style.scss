@@ -2734,6 +2734,12 @@ margin-top: 15vh;
 #investment-container{
   padding-top: 20vh;
 
+  .gray-bg{
+    background-color: #f1f1f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
 ul{
   list-style: none;
   padding-right: 0;
@@ -4641,13 +4647,23 @@ h2{
 #investment-container{
   padding-top: 20vh;
 
+  .gray-bg{
+    background-color: #f1f1f1;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+  }
+
 ul{
   list-style: none;
   padding-right: 0;
+  margin-left: 0;
 
   li{
     float: left;
     margin-bottom: 50px;
+    margin-left: 0;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
     div{
       float: right;
       width: 60%;
@@ -4673,8 +4689,8 @@ float: left;
     .bold{
       font-family: Gotham;
       font-weight: 900;
-      font-size: 75px;
-      line-height: 75px;
+      font-size: 125px;
+      line-height: 120px;
       float: left;
       text-align: center;
     }
