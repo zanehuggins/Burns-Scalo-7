@@ -4227,7 +4227,13 @@ box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .2);
 #home-press{
 #press-page{
   .portfolio-container{
+
+
     li{
+      transition: 0!important;
+      p{
+        font-family: gotham;
+      }
       a{
         .article-container{
           height: 140px;

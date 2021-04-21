@@ -2836,8 +2836,12 @@ article {
     width: 100vw;
     height: auto; }
 
-  #home-press #press-page .portfolio-container li a .article-container {
-    height: 140px; }
+  #home-press #press-page .portfolio-container li {
+    transition: 0 !important; }
+    #home-press #press-page .portfolio-container li p {
+      font-family: gotham; }
+    #home-press #press-page .portfolio-container li a .article-container {
+      height: 140px; }
 
   #gallery .gallery-item {
     height: 315px; }
