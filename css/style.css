@@ -3133,7 +3133,8 @@ article {
           font-size: 125px;
           line-height: 120px;
           float: left;
-          text-align: center; }
+          text-align: right;
+          padding-right: 40px; }
         #investment-container ul li .bold-small {
           font-family: Gotham;
           font-weight: 900;
