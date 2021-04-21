@@ -3102,11 +3102,11 @@ article {
     #investment-container ul {
       list-style: none;
       padding-right: 0;
-      margin-left: 0; }
+      margin-left: 0;
+      padding-left: 0; }
       #investment-container ul li {
         float: left;
         margin-bottom: 50px;
-        margin-left: 0;
         padding-top: 12.5vh;
         padding-bottom: 12.5vh; }
         #investment-container ul li div {
