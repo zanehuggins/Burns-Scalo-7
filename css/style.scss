@@ -49,6 +49,16 @@ object{
   width: 100vw;
 }
 
+.height-85{
+  height: 85vh;
+}
+
+.half-screen-container{
+  #half-screen{
+    margin-bottom: 10vh;
+  }
+}
+
 
 
 .modal-dialog{
@@ -4681,7 +4691,7 @@ h2{
     position: absolute;
     top: 5vh;
     padding-right: 12.5%;
-    padding-left: 15%;
+    padding-left: 25%;
     padding-top: 75px;
     padding-bottom: 75px;
     width: 71%;
