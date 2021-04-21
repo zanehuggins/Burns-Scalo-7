@@ -171,6 +171,9 @@ h1 {
   h1 .delay-4 {
     animation-name: delay-opacity;
     animation-duration: 7.5s; }
+  h1 .delay-5 {
+    animation-name: delay-opacity;
+    animation-duration: 8s; }
 @keyframes delay-opacity {
   0% {
     opacity: 0;
