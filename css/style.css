@@ -1449,13 +1449,15 @@ footer {
     float: left; }
     #home-press #press-page .portfolio-container {
       float: left; }
-      #home-press #press-page .portfolio-container li a .article-container {
-        height: 200px; }
-        #home-press #press-page .portfolio-container li a .article-container h3 {
-          font-family: gotham;
-          font-weight: 900; }
-        #home-press #press-page .portfolio-container li a .article-container p {
-          font-family: gotham; }
+      #home-press #press-page .portfolio-container li {
+        transition: 0; }
+        #home-press #press-page .portfolio-container li a .article-container {
+          height: 200px; }
+          #home-press #press-page .portfolio-container li a .article-container h3 {
+            font-family: gotham;
+            font-weight: 900; }
+          #home-press #press-page .portfolio-container li a .article-container p {
+            font-family: gotham; }
 
 /* ----------------------------------------------------------------- */
 /* BEGINS PROPERTY LANDING */

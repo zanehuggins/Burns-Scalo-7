@@ -2092,6 +2092,7 @@ float: left;
   .portfolio-container{
     float: left;
     li{
+      transition: 0;
       a{
         .article-container{
           height: 200px;
