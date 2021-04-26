@@ -949,10 +949,10 @@ footer {
     padding-bottom: 25px; }
 
 #half-screen {
-  min-height: 37.5vh;
+  min-height: 50vh;
   float: left;
   overflow: hidden;
-  margin-bottom: 15vh; }
+  margin-bottom: 5vh; }
   #half-screen .copy-container {
     margin-top: 25px;
     padding-bottom: 25px;
