@@ -176,11 +176,11 @@ h1 {
     animation-duration: 7s; }
   h1 .delay-4 {
     animation-name: delay-opacity-home;
-    animation-duration: 43s;
+    animation-duration: 45s;
     animation-iteration-count: infinite; }
   h1 .delay-5 {
     animation-name: delay-opacity-home-2;
-    animation-duration: 43s;
+    animation-duration: 45s;
     animation-iteration-count: infinite; }
 @keyframes delay-opacity-home {
   0% {
